@@ -1,0 +1,212 @@
+
+<!------------------------------------------------------------->
+<!-------------------  Header  ----------------------->
+<!------------------------------------------------------------->
+
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+<div style="margin-left:50px;margin-right:50px;margin-top:50px">
+
+<crowd-form>
+
+<!------------------------------------------------------------->
+<!-------------------  Instructions  ----------------------->
+<!------------------------------------------------------------->
+
+<h1>Instructions</h1>
+
+<h2>Overview</h2>
+
+In this task, we give you a piece of dialogue between a user and a conversational assistant (e.g., Siri or Google Assistant).<br>
+Your task is to select the text span from the dialogue history that the given phrase (e.g., "my guitar") refers to.
+
+
+
+<h2>Guidelines</h2>
+
+<ul>
+<li><b><i>Step 1:</b></i> Read the dialogue history between the user and system. </li>
+<li><b><i>Step 2:</b></i> We give you a phrase (e.g., "my guitar"). Select the text span that from the dialouge history the given phrase refers to.</li>
+<ul>
+<li>Select the option that you think is best.</li>
+</ul></ul>
+
+<!------------------------------------------------------------->
+<!---------------------  Example  ------------------------->
+<!------------------------------------------------------------->
+
+<!DOCTYPE html><html>
+
+<head><meta name="viewport" content="width=device-width, initial-scale=1"><style>
+.collapsible { background-color: #777; color: white; cursor: pointer; padding: 18px; width: 100%; border: double; text-align: left; outline: none; font-size: 15px; }
+.active, .collapsible:hover { background-color: #555; }
+.content { padding: 0 18px; display: none; overflow: visible; background-color: #f1f1f1; }
+</style></head>
+
+<body>
+<h2>Example</h2>
+<p></p>
+
+<!------------------------------------------------------------->
+<!--------------  Example  Dialogue 1 ----------------->
+<!------------------------------------------------------------->
+<button type="button" class="collapsible">Click to open the example 1</button>
+<div class="content">
+
+<h2>Example 1</h2>
+
+<ul>
+<li>In this example, <b><u>"my guitar"</u></b> refers to "<font color="red">Gibson Les Paul</font>".
+<li>Select the text span "<font color="red">Gibson Les Paul</font>".</li>
+</ul>
+
+<div style="background-color:#EDF7FF;">
+<h3>Step 1: Read this dialogue.</h3>
+
+<table>
+<tr><td valign="top">USER: </td><td valign="top"><i>I am using <font color="red">Gibson Les Paul</font>, but I am thinking about buying a new guitar. Do you have any recommendations?</i></td></tr>
+<tr><td valign="top">SYSTEM: </td><td valign="top"><i>What are your preferences?</i></td></tr>
+<tr><td valign="top">USER: </td><td valign="top"><i>Do you have something similar to <b><u>my guitar</u></b>?</i></td></tr>
+</table>
+<br>
+
+<h3>Step 2: Select the text span that the phrase <b><u>"my guitar"</u></b> refers to.</h3><br>
+
+<input type="radio" name="e1" value="e1" onclick='return false;'>Gibson<br>
+<input type="radio" name="e1" value="e1" onclick='return false;'>Les Paul<br>
+<input type="radio" name="e1" value="e1" onclick='return false;' checked><font color="red">Gibson Les Paul</font><br>
+<input type="radio" name="e1" value="e1" onclick='return false;'>No information in the dialogue<br>
+<input type="radio" name="e1" value="e1" onclick='return false;'>None of the above<br>
+
+
+<br></div><!-- Close <div style="background-color:#EDF7FF;"> --->
+<br></div> <!-- Close <div class="content"> -->
+
+
+<!------------------------------------------------------------->
+<!--------------  Example  Dialogue 2 ----------------->
+<!------------------------------------------------------------->
+<button type="button" class="collapsible">Click to open the example 2</button>
+<div class="content">
+
+<h2>Example 2</h2>
+
+<ul>
+<li>In this example, there is no specific information about the phrase <b><u>"my Nike"</u></b> in the dialogue.</li>
+<li>Select the option "<font color="blue">No information in the dialogue</font>".</li>
+</ul>
+
+<div style="background-color:#EDF7FF;">
+<h3>Step 1: Read this dialogue.</h3>
+
+<table>
+<tr><td valign="top">USER: </td><td valign="top"><i>I'd like to buy new running shoes.</i></td></tr>
+<tr><td valign="top">SYSTEM: </td><td valign="top"><i>What kind of shoes do you prefer?</i></td></tr>
+<tr><td valign="top">USER: </td><td valign="top"><i>Do you have something similar to <b><u>my Nike</u></b>?</i></td></tr>
+</table>
+<br>
+
+<h3>Step 2: Select the text span that the phrase <b><u>"my Nike"</u></b> refers to.</h3><br>
+
+<input type="radio" name="e2" value="e2" onclick='return false;'>running shoes<br>
+<input type="radio" name="e2" value="e2" onclick='return false;'>something<br>
+<input type="radio" name="e2" value="e2" onclick='return false;' checked><font color="blue">No information in the dialogue</font><br>
+<input type="radio" name="e2" value="e2" onclick='return false;'>None of the above<br>
+
+<br></div><!-- Close <div style="background-color:#EDF7FF;"> --->
+<br></div> <!-- Close <div class="content"> -->
+
+<!------------------------------------------------------------->
+<!--------------  Example  Dialogue 3 ----------------->
+<!------------------------------------------------------------->
+<button type="button" class="collapsible">Click to open the example 3</button>
+<div class="content">
+
+<h2>Example 3</h2>
+
+<ul>
+<li>The phrase <b><u>"my reservation time"</u></b> refers to <font color="red">20:00 on Friday</font>, but there are no options about it.</li>
+<li>In this case, select "<font color="blue">None of the above</font>".</li>
+</ul>
+
+<div style="background-color:#EDF7FF;">
+<h3>Step 1: Read this dialogue.</h3>
+
+<table>
+<tr><td valign="top">USER: </td><td valign="top"><i>Can I get reservations for 7 at <font color="red">20:00 on Friday</font>?</i></td></tr>
+<tr><td valign="top">SYSTEM: </td><td valign="top"><i>No problem. I have you booked on Friday at 20:00 for 7. Can I help you with anything else?</i></td></tr>
+<tr><td valign="top">USER: </td><td valign="top"><i>Yes. I would like a taxi to take me to the restaurant by <b><u>my reservation time</b></u>.</i></td></tr>
+</table>
+<br>
+
+<h3>Step 2: Select the text span that the phrase <b><u>"my reservation time"</u></b> refers to.</h3><br>
+
+<input type="radio" name="e3" value="e3" onclick='return false;'>reservations<br>
+<input type="radio" name="e3" value="e3" onclick='return false;'>No information in the dialogue<br>
+<input type="radio" name="e3" value="e3" onclick='return false;' checked><font color="blue">None of the above</font><br>
+
+<br></div><!-- Close <div style="background-color:#EDF7FF;"> --->
+<br></div> <!-- Close <div class="content"> -->
+
+<!------------------------------------------------------------->
+<!---------  Example  Dialogue Finish --------------->
+<!------------------------------------------------------------->
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+coll[i].addEventListener("click", function() {
+this.classList.toggle("active");
+var content = this.nextElementSibling;
+if (content.style.display === "block") {
+content.style.display = "none";
+} else {
+content.style.display = "block";
+}
+});
+}
+</script>
+
+</body>
+</html>
+
+<h1>Dialogue</h1>
+
+<div style="background-color:#EDF7FF;">
+<h3>Step 1: Read this dialogue.</h3>
+
+
+<table>
+<tr><td valign="top">USER: </td><td valign="top"><i>Have you volunteer in any humane service before?</i></td></tr>
+<tr><td valign="top">SYSTEM: </td><td valign="top"><i>Yes, I did volunteer for a brief time, but I developed an allergy to cats. So I had to quit.</i></td></tr>
+<tr><td valign="top">USER: </td><td valign="top"><i>oh thats nice, I worked at houston food bank as a volunteer</i></td></tr>
+<tr><td valign="top">SYSTEM: </td><td valign="top"><i>The cat food always smelled really strongly. I think smelling so many food smells suppressed my appetite when I volunteered.</i></td></tr>
+<tr><td valign="top">USER: </td><td valign="top"><i>yes thats true, since you will work in a warehouse, is something worth doing</i></td></tr>
+<tr><td valign="top">SYSTEM: </td><td valign="top"><i>I do like helping the animals though. Perhaps I will try to foster dogs instead. They eat a lot more because they have a bigger appetite.</i></td></tr>
+<tr><td valign="top">USER: </td><td valign="top"><i>yes dogs eat a lot, I love working with animals, am an animal scientist and is part of <b><u>my job</u></b></i></td></tr>
+<table>
+<br>
+
+<h3>Step 2: Select the text span that the phrase <b><u>"my job"</u></b> refers to.</h3><br>
+
+<crowd-radio-group>
+<crowd-radio-button name="dialno:0--6--wow-16753--my job--volunteer" value="on">volunteer</crowd-radio-button><br>
+<crowd-radio-button name="dialno:0--6--wow-16753--my job--service" value="on">service</crowd-radio-button><br>
+<crowd-radio-button name="dialno:0--6--wow-16753--my job--houston food bank" value="on">houston food bank</crowd-radio-button><br>
+<crowd-radio-button name="dialno:0--6--wow-16753--my job--a volunteer" value="on">a volunteer</crowd-radio-button><br>
+<crowd-radio-button name="dialno:0--6--wow-16753--my job--houston" value="on">houston</crowd-radio-button><br>
+<crowd-radio-button name="dialno:0--6--wow-16753--my job--dogs" value="on">dogs</crowd-radio-button><br>
+<crowd-radio-button name="dialno:0--6--wow-16753--my job--animals" value="on">animals</crowd-radio-button><br>
+<crowd-radio-button name="dialno:0--6--wow-16753--my job--an animal scientist" value="on">an animal scientist</crowd-radio-button><br>
+<crowd-radio-button name="dialno:0--6--wow-16753--my job--no_information_in_the_dialogue" value="on">No information in the dialogue</crowd-radio-button><br>
+<crowd-radio-button name="dialno:0--6--wow-16753--my job--none_of_the_above" value="on">None of the above</crowd-radio-button><br>
+</crowd-radio-group>
+
+<!------------------------------------------------------------->
+<!---------------------  Footer  ------------------------->
+<!------------------------------------------------------------->
+
+</crowd-form>
+
+</div>

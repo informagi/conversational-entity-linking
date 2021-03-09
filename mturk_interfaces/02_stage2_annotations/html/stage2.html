@@ -1,0 +1,189 @@
+
+<!------------------------------------------------------------->
+<!-------------------  Header  ----------------------->
+<!------------------------------------------------------------->
+
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+<div style="margin-left:50px;margin-right:50px;margin-top:50px">
+
+<crowd-form>
+
+<!------------------------------------------------------------->
+<!-------------------  Instructions  ----------------------->
+<!------------------------------------------------------------->
+
+<h1>Instructions</h1>
+
+<h2>Overview</h2>
+
+Imagine you are an AI agent (e.g., Siri or Google Now), having a dialogue with a person. You have access to Wikipedia articles (and some other information sources) to answer the person's questions. 
+Select the Wikipedia articles that help you to find an answer to the person's question.
+
+<h2>Guidelines</h2>
+
+<ul>
+<li><b><i>Step 1:</b></i> Read the dialogue history between the user and system. </li>
+<li><b><i>Step 2: </b></i>We give you some phrases (all linked to Wikipedia articles) from the final user utterance. Select:</li>
+<ul>
+<li><b><i>2-1:</b></i> Known entities, such as name of people, places, or organizations (e.g., "Sarah", "London", or "NASA").
+<ul>
+<li>Select known entities, even if they are abbreviations (e.g., "Fla."), acronyms (e.g., "SC"), or compound nouns (e.g., "Tempa, Florida").</li>
+</ul>
+<li><b><i>2-2:</b></i> Phrases that help you (as a SYSTEM) to provide a good response to the user. </li>
+</ul></ul>
+
+
+<!------------------------------------------------------------->
+<!---------------------  Example  ------------------------->
+<!------------------------------------------------------------->
+
+<!DOCTYPE html><html>
+
+<head><meta name="viewport" content="width=device-width, initial-scale=1"><style>
+.collapsible { background-color: #777; color: white; cursor: pointer; padding: 18px; width: 100%; border: double; text-align: left; outline: none; font-size: 15px; }
+.active, .collapsible:hover { background-color: #555; }
+.content { padding: 0 18px; display: none; overflow: visible; background-color: #f1f1f1; }
+</style></head>
+
+<body>
+<h2>Example</h2>
+<p></p>
+
+<!------------------------------------------------------------->
+<!--------------  Example 1 ----------------->
+<!------------------------------------------------------------->
+<button type="button" class="collapsible">Click to open the example 1</button>
+<div class="content">
+
+<h2>Example 1</h2>
+
+<ul>
+<li>Ignore the phrase that does NOT contain important information that helps you (as a SYSTEM) to provide a good response to the user.
+<ul>
+<li>In the example below, "<font color="red">college</font>" is not directly related to the user’s question.</li>
+</ul>
+<li>Select the longest phrase "<font color="blue">Anne Frank House</font>", instead of "Anne Frank" or "House".</li>
+</ul>
+
+<div style="background-color:#EDF7FF;">
+<h3>Step 1: Read this dialogue.</h3>
+
+<table>
+<tr><td valign="top">USER: </td><td valign="top"><i>I would like to travel to Western Europe. Do you have any recommendations for places to visit?</i></td></tr>
+<tr><td valign="top">SYSTEM: </td><td valign="top"><i>Have you ever been to Amsterdam?</i></td></tr>
+<tr><td valign="top">USER: </td><td valign="top"><i>I have wanted to travel there since I was in college. What are the attractions of Amsterdam? I heard that the Anne Frank House is very attractive.</i></td></tr>
+<table>
+<br>
+
+<h3>Step 2-2: Select the phrases that help you (as a SYSTEM) to provide a good response to the user.</h3>
+<table border="1"><tr>
+<td>USER: <i>I have wanted to travel there since I was in college. What are the attractions of Amsterdam? I heard that the Anne Frank House is very attractive.</i></td>
+</tr></table><br>
+<input type='checkbox' name="e" value="e" onclick='return false;'><font color="red">college</font> (<a target=”_blank” href="https://en.wikipedia.org/wiki/College">College - Wikipedia</a>)<br>
+<input type='checkbox' name="e" value="e" onclick='return false;' checked>Amsterdam (<a target=”_blank” href="https://en.wikipedia.org/wiki/Amsterdam">Amsterdam - Wikipedia</a>)<br>
+<input type='checkbox' name="e" value="e" onclick='return false;'>Anne Frank (<a target=”_blank” href="https://en.wikipedia.org/wiki/Anne_Frank">Anne Frank - Wikipedia</a>)<br>
+<input type='checkbox' name="e" value="e" onclick='return false;'>House (<a target=”_blank” href="https://en.wikipedia.org/wiki/House">House - Wikipedia</a>)<br>
+<input type='checkbox' name="e" value="e" onclick='return false;' checked><font color="blue">Anne Frank House</font> (<a target=”_blank” href="https://en.wikipedia.org/wiki/Anne_Frank_House">Anne Frank House - Wikipedia</a>)</b></i><br>
+<input type='checkbox' name="e" value="e" onclick='return false;'>None of the above<br>
+
+<br></div><!-- Close <div style="background-color:#EDF7FF;"> --->
+<br></div> <!-- Close <div class="content"> -->
+
+<!------------------------------------------------------------->
+<!--------------  Example 2 ----------------->
+<!------------------------------------------------------------->
+<button type="button" class="collapsible">Click to open the example 2</button>
+<div class="content">
+
+<h2>Example 2</h2>
+
+<ul>
+<li>See the example below. In this case phrase "<font color="red">Thank you</font>" should NOT be chosen.</li>
+<li>This is because the Wikipedia article <a target=”_blank” href="https://en.wikipedia.org/wiki/Thank_You_(Led_Zeppelin_song)">Thank You (Led Zeppelin song) - Wikipedia</a> does not help you (as a SYSTEM) to provide a good response to the user.</li>
+</ul>
+
+<div style="background-color:#EDF7FF;">
+<h3>Step 1: Read this dialogue.</h3>
+
+<table>
+<tr><td valign="top">USER: </td><td valign="top"><i>I am looking for a restaurant in the west side of town</i></td></tr>
+<tr><td valign="top">SYSTEM: </td><td valign="top"><i>I found saint johns chop house. The address is 21-24 Northampton Street and the phone number is 01223353110. Is there anything else I can do for you?</i></td></tr>
+<tr><td valign="top">USER: </td><td valign="top"><i>No, you have been a great help. Thank you.</i></td></tr>
+<table>
+<br>
+
+<h3>Step 2-2: Select the phrases that help you (as a SYSTEM) to provide a good response to the user.</h3>
+<table border="1"><tr>
+<td>USER: <i>No, you have been a great help. Thank you.</i></td>
+</tr></table><br>
+<input type='checkbox' name="e" value="e" onclick='return false;'><font color="red">Thank you</font> (<a target=”_blank” href="https://en.wikipedia.org/wiki/Thank_You_(Led_Zeppelin_song)">Thank You (Led Zeppelin song) - Wikipedia</a>)<br>
+<input type='checkbox' name="e" value="e" onclick='return false;' checked>None of the above<br>
+
+<br></div><!-- Close <div style="background-color:#EDF7FF;"> --->
+<br></div> <!-- Close <div class="content"> -->
+
+<!------------------------------------------------------------->
+<!---------  Example  Dialogue Finish --------------->
+<!------------------------------------------------------------->
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+coll[i].addEventListener("click", function() {
+this.classList.toggle("active");
+var content = this.nextElementSibling;
+if (content.style.display === "block") {
+content.style.display = "none";
+} else {
+content.style.display = "block";
+}
+});
+}
+</script>
+
+</body>
+</html>
+
+<h1>Dialogue</h1>
+
+<div style="background-color:#EDF7FF;">
+<h3>Step 1: Read this dialogue.</h3>
+
+
+<table>
+<tr><td valign="top">USER: </td><td valign="top"><i>I've caught the movie star bug!  I was just an extra in a movie!</i></td></tr>
+<tr><td valign="top">SYSTEM: </td><td valign="top"><i>That's great! I bet you'll have a lot of people referring to you as a background artist or cast member. Apparently on a TV set the term extra isn't used that often.</i></td></tr>
+<tr><td valign="top">... </td><td valign="top"><i>...</i></td></tr>
+<tr><td valign="top">USER: </td><td valign="top"><i>Yeah, I think my next step is to be a "seat filler" at the Academy Awards.  </i></td></tr>
+<tr><td valign="top">SYSTEM: </td><td valign="top"><i>Oh, you mean a person who fills in an empty seat during an event? I bet that's how Trump gets people to go to his speeches!</i></td></tr>
+<tr><td valign="top">USER: </td><td valign="top"><i>Yes that's exactly what I mean! I just need a NON Harvey Weinstein type person to discover me to be famous!</i></td></tr>
+<tr><td valign="top">SYSTEM: </td><td valign="top"><i>Well, depending on the production the criteria for casting background actors is going to be different. I'm sure you'll find your niche role eventually!</i></td></tr>
+<tr><td valign="top">USER: </td><td valign="top"><i>My parents say I shouldn't go to Hollywood.  They want me to keep my day job as a Wal-Mart greeter, but I'm packing my car.  California here I come!</i></td></tr>
+<table>
+<br>
+
+<h3>Step 2-1: Select known entities, such as name of people, places, or organizations (e.g., "Sarah", "London", or "NASA")</h3>
+<table border="1"><tr>
+<td>USER: <i>My parents say I shouldn't go to Hollywood.  They want me to keep my day job as a Wal-Mart greeter, but I'm packing my car.  California here I come!</i></td>
+</tr></table><br>
+<crowd-checkbox name="dialno:0--8--wow-4547--California--California" value="propn">California (<a target=”_blank” href="https://en.wikipedia.org/wiki/California">California - Wikipedia</a>)</crowd-checkbox><br>
+<crowd-checkbox name="dialno:0--8--wow-4547--Hollywood--Hollywood" value="propn">Hollywood (<a target=”_blank” href="https://en.wikipedia.org/wiki/Hollywood">Hollywood - Wikipedia</a>)</crowd-checkbox><br>
+<crowd-checkbox name="dialno:0--8--wow-4547--Wal-Mart--Walmart" value="propn">Wal-Mart (<a target=”_blank” href="https://en.wikipedia.org/wiki/Walmart">Walmart - Wikipedia</a>)</crowd-checkbox><br>
+<crowd-checkbox name="dialno:0--8--wow-4547--none_of_the_above" value="propn">None of the above</crowd-checkbox><br>
+
+<h3>Step 2-2: Select the phrases that help you (as a SYSTEM) to provide a good response to the user.</h3>
+<crowd-checkbox name="dialno:0--8--wow-4547--California--California" value="helpful">California (<a target=”_blank” href="https://en.wikipedia.org/wiki/California">California - Wikipedia</a>)</crowd-checkbox><br>
+<crowd-checkbox name="dialno:0--8--wow-4547--Hollywood--Hollywood" value="helpful">Hollywood (<a target=”_blank” href="https://en.wikipedia.org/wiki/Hollywood">Hollywood - Wikipedia</a>)</crowd-checkbox><br>
+<crowd-checkbox name="dialno:0--8--wow-4547--Wal-Mart--Walmart" value="helpful">Wal-Mart (<a target=”_blank” href="https://en.wikipedia.org/wiki/Walmart">Walmart - Wikipedia</a>)</crowd-checkbox><br>
+<crowd-checkbox name="dialno:0--8--wow-4547--none_of_the_above" value="helpful">None of the above</crowd-checkbox><br>
+
+
+<!------------------------------------------------------------->
+<!---------------------  Footer  ------------------------->
+<!------------------------------------------------------------->
+
+</crowd-form>
+
+</div>

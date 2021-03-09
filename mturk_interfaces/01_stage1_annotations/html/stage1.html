@@ -1,0 +1,186 @@
+
+<!------------------------------------------------------------->
+<!-------------------  Header  ----------------------->
+<!------------------------------------------------------------->
+
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+<div style="margin-left:50px;margin-right:50px;margin-top:50px">
+
+<crowd-form>
+
+<!------------------------------------------------------------->
+<!-------------------  Instructions  ----------------------->
+<!------------------------------------------------------------->
+
+<h1>Instructions</h1>
+
+<h2>Overview</h2>
+
+In this task, we give you a piece of dialogue between a user and a conversational assistant (e.g., Siri or the Google Assistant).<br>
+Your task is to find the Wikipedia article that is mentioned in the final user utterance.
+
+<h2>Guidelines</h2>
+
+<ul>
+<li><b><i>Step 1:</b></i> Read the dialogue history between the user and system. </li>
+<li><b><i>Step 2:</b></i> We give you a phrase from the final user utterance. Select the Wikipedia article that the phrase is referring to.</li>
+<ul>
+<li>Choose the exact entity that is mentioned, not indirect or answer entities; e.g., if the given phrase is "US president" choose the Wikipedia article <a target=”_blank” href="https://en.wikipedia.org/wiki/President_of_the_United_States">President of the United States</a>, not <a target=”_blank” href="https://en.wikipedia.org/wiki/Joe_Biden">Joe Biden</a>.</li>
+</ul></ul>
+
+
+
+<!------------------------------------------------------------->
+<!---------------------  Example  ------------------------->
+<!------------------------------------------------------------->
+
+<!DOCTYPE html><html>
+
+<head><meta name="viewport" content="width=device-width, initial-scale=1"><style>
+.collapsible { background-color: #777; color: white; cursor: pointer; padding: 18px; width: 100%; border: double; text-align: left; outline: none; font-size: 15px; }
+.active, .collapsible:hover { background-color: #555; }
+.content { padding: 0 18px; display: none; overflow: visible; background-color: #f1f1f1; }
+</style></head>
+
+<body>
+<h2>Example</h2>
+<p></p>
+
+<!------------------------------------------------------------->
+<!--------------  Example  Dialogue 1 ----------------->
+<!------------------------------------------------------------->
+<button type="button" class="collapsible">Click to open the example 1</button>
+<div class="content">
+
+<h2>Example 1</h2>
+
+<ul>
+<li>See the example below. If you click the link to the Wikipedia article, you can find that the <a target=”_blank” href="https://en.wikipedia.org/wiki/London"><b><i>London</b></i></a> in the given options represents London in the UK</li>
+<li>Based on the dialogue, it can be assumed that the user and system are talking about a train in the UK</li>
+<li>Thus, <a target=”_blank” href="https://en.wikipedia.org/wiki/London"><b><i>London</b></i></a> should be chosen</li>
+</ul>
+
+<div style="background-color:#EDF7FF;">
+<h3>Step 1: Read this dialogue.</h3>
+
+<table>
+<tr><td valign="top">USER: </td><td valign="top"><i>I am looking for a train to University of Cambridge.</i></td></tr>
+<tr><td valign="top">SYSTEM: </td><td valign="top"><i>Where do you plan to depart from?</i></td></tr>
+<tr><td valign="top">USER: </td><td valign="top"><i>I am staying next to Waterloo Station in London.</i></td></tr>
+<table>
+<br>
+
+<h3>Step 2: Which Wikipedia atricle does the phrase <b><u>"London"</u></b> refer to?</h3><br>
+<table border="1"><tr>
+<td>USER: <i>I am staying next to Waterloo Station in <b><u>London</u></b>.</i></td>
+</tr></table><br>
+<input type="radio" name="e1" value="e1" onclick='return false;'><a target=”_blank” href="https://en.wikipedia.org/wiki/London,_Ontario">London,_Ontario</a><br>
+<input type="radio" name="e1" value="e1" onclick='return false;' checked><a target=”_blank” href="https://en.wikipedia.org/wiki/London"><b><i>London</b></i></a><br>
+<input type="radio" name="e1" value="e1" onclick='return false;'><a target=”_blank” href="https://en.wikipedia.org/wiki/London_Island">London_Island</a><br>
+<input type="radio" name="e1" value="e1" onclick='return false;'>None of the above<br>
+<br></div><!-- Close <div style="background-color:#EDF7FF;"> --->
+<br></div> <!-- Close <div class="content"> -->
+
+
+<!------------------------------------------------------------->
+<!--------------  Example  Dialogue 2 ----------------->
+<!------------------------------------------------------------->
+<button type="button" class="collapsible">Click to open the example 2</button>
+<div class="content">
+<h2>Example 2</h2>
+
+
+<ul>
+<li>See the example below. If you click the link to the Wikipedia article, you can find that the <a target=”_blank” href="https://en.wikipedia.org/wiki/The_Band"><b><i>The_Band</b></i></a> represents the name of the rock group formed in Toronto.</li>
+<li>Based on the dialogue, you can infer that the user and system are talking about the band Grateful Dead not <a target=”_blank” href="https://en.wikipedia.org/wiki/The_Band"><b><i>The_Band</b></i></a>.</li>
+<li>Thus, <b><i>None of the above</b></i> should be chosen</li>
+</ul>
+
+<div style="background-color:#EDF7FF;">
+<h3>Step 1: Read this dialogue.</h3>
+
+<table>
+<tr><td valign="top">USER: </td><td valign="top"><i>Why were the Dead such an influential live band?</i></td></tr>
+<tr><td valign="top">SYSTEM: </td><td valign="top"><i>The Grateful Dead formed during the era when bands such ...</i></td></tr>
+<tr><td valign="top">USER: </td><td valign="top"><i>Why did the band break up?</i></td></tr>
+<table>
+<br>
+
+<h3>Step 2: Which Wikipedia atricle does the phrase <b><u>"band"</u></b> refer to?</h3><br>
+<table border="1"><tr>
+<td>USER: <i>Why did the <b><u>band</u></b> break up?</i></td>
+</tr></table><br>
+<input type="radio" name="e2" value="e2" onclick='return false;'><a target=”_blank” href="https://en.wikipedia.org/wiki/The_Band">The_Band</a><br>
+<input type="radio" name="e2" value="e2" onclick='return false;' checked><b><i>None of the above</b></i><br>
+<br></div><!-- Close <div style="background-color:#EDF7FF;"> --->
+<br></div> <!-- Close <div class="content"> -->
+
+
+<!------------------------------------------------------------->
+<!---------  Example  Dialogue Finish --------------->
+<!------------------------------------------------------------->
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+coll[i].addEventListener("click", function() {
+this.classList.toggle("active");
+var content = this.nextElementSibling;
+if (content.style.display === "block") {
+content.style.display = "none";
+} else {
+content.style.display = "block";
+}
+});
+}
+</script>
+
+</body>
+</html>
+
+
+<h1>Dialogue</h1>
+
+<div style="background-color:#EDF7FF;">
+<h3>Step 1: Read this dialogue.</h3>
+
+
+<table>
+<tr><td valign="top">USER: </td><td valign="top"><i>It's summertime and I know snakes will be more active.</i></td></tr>
+<tr><td valign="top">SYSTEM: </td><td valign="top"><i>Snakes terrify me! I don't like their elongated and legless bodies. They freak me out!</i></td></tr>
+<tr><td valign="top">... </td><td valign="top"><i>...</i></td></tr>
+<tr><td valign="top">USER: </td><td valign="top"><i>I always try to make sure in the spring that there isn't a food source for rodents in the summer.  The website does have that recommendation. </i></td></tr>
+<tr><td valign="top">SYSTEM: </td><td valign="top"><i>I will definitely keep that in mind. I live in a hot and humid location and I'm sure we have tons of snakes around here!</i></td></tr>
+<tr><td valign="top">USER: </td><td valign="top"><i>The humidity here in SC has increased dramatically over the years and I'm seeing more Black King snakes</i></td></tr>
+<tr><td valign="top">SYSTEM: </td><td valign="top"><i>I lived in Charleston, South Carolina for twenty years before moving here to Florida. I did see a lot of snakes there!</i></td></tr>
+<tr><td valign="top">USER: </td><td valign="top"><i>I used to live in Tampa, Fla. and moved to Greenville, SC. Good luck keeping the snakes away! :)</i></td></tr>
+<table>
+<br>
+
+
+<h3>Step 2: Which Wikipedia atricle does the phrase <b><u>"Fla"</u></b> refer to?</h3><br>
+<table border="1"><tr>
+<td>USER: <i>I used to live in Tampa, <b><u>Fla</u></b>. and moved to Greenville, SC. Good luck keeping the snakes away! :)</i></td>
+</tr></table><br>
+<crowd-radio-group>
+<crowd-radio-button name="dialno:0--10--wow-18825--Fla--Florida" value="Florida"><a target=”_blank” href="https://en.wikipedia.org/wiki/Florida">Florida</a></crowd-radio-button><br>
+<crowd-radio-button name="dialno:0--10--wow-18825--Fla--J.Fla" value="J.Fla"><a target=”_blank” href="https://en.wikipedia.org/wiki/J.Fla">J.Fla</a></crowd-radio-button><br>
+<crowd-radio-button name="dialno:0--10--wow-18825--Fla--Miami" value="Miami"><a target=”_blank” href="https://en.wikipedia.org/wiki/Miami">Miami</a></crowd-radio-button><br>
+<crowd-radio-button name="dialno:0--10--wow-18825--Fla--Flå" value="Flå"><a target=”_blank” href="https://en.wikipedia.org/wiki/Flå">Flå</a></crowd-radio-button><br>
+<crowd-radio-button name="dialno:0--10--wow-18825--Fla--Tampa,_Florida" value="Tampa,_Florida"><a target=”_blank” href="https://en.wikipedia.org/wiki/Tampa,_Florida">Tampa,_Florida</a></crowd-radio-button><br>
+<crowd-radio-button name="dialno:0--10--wow-18825--Fla--Jacksonville,_Florida" value="Jacksonville,_Florida"><a target=”_blank” href="https://en.wikipedia.org/wiki/Jacksonville,_Florida">Jacksonville,_Florida</a></crowd-radio-button><br>
+<crowd-radio-button name="dialno:0--10--wow-18825--Fla--Pensacola,_Florida" value="Pensacola,_Florida"><a target=”_blank” href="https://en.wikipedia.org/wiki/Pensacola,_Florida">Pensacola,_Florida</a></crowd-radio-button><br>
+<crowd-radio-button name="dialno:0--10--wow-18825--Fla--Palm_Beach,_Florida" value="Palm_Beach,_Florida"><a target=”_blank” href="https://en.wikipedia.org/wiki/Palm_Beach,_Florida">Palm_Beach,_Florida</a></crowd-radio-button><br>
+<crowd-radio-button name="dialno:0--10--wow-18825--Fla--none_of_the_above" value="none_of_the_above">None of the above</crowd-checkbox><br>
+</crowd-radio-group>
+
+
+<!------------------------------------------------------------->
+<!---------------------  Footer  ------------------------->
+<!------------------------------------------------------------->
+
+</crowd-form>
+
+</div>
