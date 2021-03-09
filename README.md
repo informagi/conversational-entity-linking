@@ -1,16 +1,19 @@
 Conversational Entity Linking
 ============
 
-This repository contains resources developed within the following research:
+This repository provides the entity linking annotations in conversational settings.
+
+These resources are developed within the following paper:
 
 ```
 Hideaki Joko, Faegheh Hasibi, Krisztian Balog, and Arjen P. de Vries. “Conversational Entity Linking: Problem Definition and Datasets”.
 ```
 
+The repository is structured as follows:
+- `./data`: MTurk entity annotations data
+- `./mturk_interfaces`: MTurk interface used to collect the entity annotations
+
 # Data
-
-MTurk entity annotations data, stored in `./data` directory.
-
 Each element in a list has a dict structure as follows:
 
 ```py
