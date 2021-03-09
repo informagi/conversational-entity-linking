@@ -1,7 +1,7 @@
 Conversational Entity Linking
 ============
 
-This repository provides the entity linking annotations in conversational settings.
+This repository provides the resources related to entity linking annotations in conversational settings 
 
 These resources are developed within the following paper:
 
