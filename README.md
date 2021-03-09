@@ -8,6 +8,10 @@ Hideaki Joko, Faegheh Hasibi, Krisztian Balog, and Arjen P. de Vries. “Convers
 ```
 
 # Data
+
+- MTurk entity annotations data, stored in `./data` directory.
+- Each element in a list has a dict structure as follows:
+
 ```py
 { "dialogue_id": "MUL0954.json",
   "dataset_name": "mwoz", # or "quac", "wow", "cast20raw", "cast20manu"
@@ -54,6 +58,7 @@ Hideaki Joko, Faegheh Hasibi, Krisztian Balog, and Arjen P. de Vries. “Convers
 # MTurk Interfaces
 
 - MTurk interface used to collect the entity annotations
+- Stored in `./mturk_interfaces` directory.
 
 # Conversational Dataset List
 
