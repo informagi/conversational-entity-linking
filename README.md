@@ -19,10 +19,19 @@ The repository is structured as follows:
 - `./mturk_interfaces`: MTurk interface used to collect the entity annotations
 
 # Data
-MTurk entity annotation data stored in `./data`: 
+MTurk entity annotation data is stored in `./data`: 
 - `samples.json`: Entity annotations from 10 dialogues from each dataset (i.e., MWOZ, QuAC, WoW, and TREC-CAsT 2020).
 - `larger_samples_cast2020.json`: All dialogues from TREC-CAST 2020 dataset, which contains 25 conversational search dialogues.
 - `larger_samples_wow.json`: 25 WoW dialogues which contains personal entities in each dialogue.
+
+## Statistics
+
+|                   | Stratified samples<br>(sample.json) | TREC-CAsT 2020<br>(larger_samples_cast2020.json) | Larger WoW<br>(larger_samples_wow.json) |
+|-------------------|-------------------------------------|--------------------------------------------------|-----------------------------------------|
+| # dialogues       | 40                                  | 25                                               | 25                                      |
+| # user utterances | 282                                 | 216                                              | 113                                     |
+<!--| # avg. turns      | 14.1                                | 17.3                                             | 9.0                                     |-->
+
 
 ## Data Format
 Each element in a list has a dict structure as follows:
