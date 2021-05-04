@@ -1,4 +1,4 @@
-Conversational Entity Linking
+ConvEL: Conversational Entity Linking Datasets
 ============
 
 This repository provides the resources related to entity linking annotations in conversational settings.\
@@ -20,17 +20,16 @@ The repository is structured as follows:
 
 # Data
 MTurk entity annotation data is stored in `./data`: 
-- `samples.json`: Entity annotations from 10 dialogues from each dataset (i.e., MWOZ, QuAC, WoW, and TREC-CAsT 2020).
-- `larger_samples_cast2020.json`: All dialogues from TREC-CAST 2020 dataset, which contains 25 conversational search dialogues.
-- `larger_samples_wow.json`: 25 WoW dialogues which contains personal entities in each dialogue.
+- `samples.json`: Entity annotations from 25 dialogues from each dataset (i.e., MWOZ, QuAC, and WoW).
+- `cast2020.json`: All dialogues from TREC-CAST 2020 dataset, which contains 25 conversational search dialogues.
+- `wow_with_personal_entities.json`: 25 WoW dialogues which contains personal entities in each dialogue.
 
 ## Statistics
 
-|                   | Stratified samples<br>(sample.json) | TREC-CAsT 2020<br>(larger_samples_cast2020.json) | Larger WoW<br>(larger_samples_wow.json) |
+|                   | Stratified samples<br>(sample.json) | TREC-CAsT 2020<br>(cast2020.json) | Larger WoW<br>(wow_with_personal_entities.json) |
 |-------------------|-------------------------------------|--------------------------------------------------|-----------------------------------------|
-| # dialogues       | 40                                  | 25                                               | 25                                      |
-| # user utterances | 282                                 | 216                                              | 113                                     |
-<!--| # avg. turns      | 14.1                                | 17.3                                             | 9.0                                     |-->
+| # dialogues       | 75                                  | 25                                               | 25                                      |
+| # user utterances | 492                                 | 216                                              | 113                                     |
 
 
 ## Data Format
@@ -81,7 +80,7 @@ Each element in a list has a dict structure as follows:
   - `tool_el_annotations`: annotation with EL tools: WAT, TagMe, and REL
   - `mturk_el_annotations`: annotations with MTurk workers
     - `count_helpful`: the number of workers who think the mention-entity pair is helpful to provide a good reply to the user as a system. (max: 3, min: 0)
-  - `mturk_personal_entity_annotations`: Personal entity annotations. Note that only `larger_samples_wow.json` has this annotations.
+  - `mturk_personal_entity_annotations`: Personal entity annotations. Note that only `wow_with_personal_entities.json` has this annotations.
 
 # MTurk Interfaces
 
