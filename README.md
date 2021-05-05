@@ -1,4 +1,4 @@
-ConvEL: Conversational Entity Linking Datasets
+ConEL: Conversational Entity Linking Datasets
 ============
 
 This repository provides the resources related to entity linking annotations in conversational settings.\
