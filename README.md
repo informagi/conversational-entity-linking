@@ -20,16 +20,15 @@ The repository is structured as follows:
 
 # Data
 MTurk entity annotation data is stored in `./data`: 
-- `samples.json`: Entity annotations from 25 dialogues from each dataset (i.e., MWOZ, QuAC, and WoW).
-- `cast2020.json`: All dialogues from TREC-CAST 2020 dataset, which contains 25 conversational search dialogues.
+- `samples.json`: Entity annotations from 25 dialogues from each dataset (i.e., MWOZ, QuAC, WoW, and TREC-CAST 2020).
 - `wow_with_personal_entities.json`: 25 WoW dialogues which contains personal entities in each dialogue.
 
 ## Statistics
 
-|                   | Stratified samples<br>(sample.json) | TREC-CAsT 2020<br>(cast2020.json) | Larger WoW<br>(wow_with_personal_entities.json) |
-|-------------------|-------------------------------------|--------------------------------------------------|-----------------------------------------|
-| # dialogues       | 75                                  | 25                                               | 25                                      |
-| # user utterances | 492                                 | 216                                              | 113                                     |
+|                   | Stratified samples<br>(sample.json) | WoW with personal entities<br>(wow_with_personal_entities.json) |
+|-------------------|-------------------------------------|-----------------------------------------------------------------|
+| # dialogues       | 100                                 | 25                                                              |
+| # user utterances | 708                                 | 113                                                             |
 
 
 ## Data Format
