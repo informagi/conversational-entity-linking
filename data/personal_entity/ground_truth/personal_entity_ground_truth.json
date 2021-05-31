@@ -11,8 +11,7 @@
                     {
                         "mention": "Blue",
                         "entity": "Blue",
-                        "entity_type": "concept",
-                        "count_helpful": 2
+                        "entity_type": "concept"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -108,8 +107,7 @@
                     {
                         "mention": "Music",
                         "entity": "Music",
-                        "entity_type": "concept",
-                        "count_helpful": 2
+                        "entity_type": "concept"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -147,8 +145,7 @@
                     {
                         "mention": "Blue",
                         "entity": "Blue",
-                        "entity_type": "concept",
-                        "count_helpful": 2
+                        "entity_type": "concept"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -251,8 +248,7 @@
                     {
                         "mention": "cosmetic industry",
                         "entity": "Cosmetic_industry",
-                        "entity_type": "concept",
-                        "count_helpful": 3
+                        "entity_type": "concept"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -295,8 +291,7 @@
                     {
                         "mention": "pizza",
                         "entity": "Pizza",
-                        "entity_type": "concept",
-                        "count_helpful": 2
+                        "entity_type": "concept"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -387,8 +382,7 @@
                     {
                         "mention": "milk chocolate",
                         "entity": "Types_of_chocolate",
-                        "entity_type": "concept",
-                        "count_helpful": 2
+                        "entity_type": "concept"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -443,8 +437,7 @@
                     {
                         "mention": "Mediterranean cuisine",
                         "entity": "Mediterranean_cuisine",
-                        "entity_type": "concept",
-                        "count_helpful": 2
+                        "entity_type": "concept"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -511,8 +504,7 @@
                     {
                         "mention": "cheetos",
                         "entity": "Cheetos",
-                        "entity_type": "named_entity",
-                        "count_helpful": 3
+                        "entity_type": "named_entity"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -587,14 +579,7 @@
                 "speaker": "USER",
                 "utterance": "That sounds simply amazing especially since cookies and cream is one of my favorites. Have you ever tried a Carvel ice cream cake?",
                 "turn_number": 2,
-                "el_annotations": [
-                    {
-                        "mention": "cookies and cream",
-                        "entity": "Cookies_and_cream",
-                        "entity_type": "concept",
-                        "count_helpful": 1
-                    }
-                ],
+                "el_annotations": [],
                 "personal_entity_annotations": [
                     {
                         "personal_entity_mention": "my favorites",
@@ -664,8 +649,7 @@
                     {
                         "mention": "Oreo",
                         "entity": "Oreo",
-                        "entity_type": "named_entity",
-                        "count_helpful": 3
+                        "entity_type": "named_entity"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -732,8 +716,7 @@
                     {
                         "mention": "Strawberry",
                         "entity": "Strawberry",
-                        "entity_type": "concept",
-                        "count_helpful": 3
+                        "entity_type": "concept"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -807,8 +790,7 @@
                     {
                         "mention": "Pizza",
                         "entity": "Pizza",
-                        "entity_type": "concept",
-                        "count_helpful": 2
+                        "entity_type": "concept"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -899,8 +881,7 @@
                     {
                         "mention": "white rice",
                         "entity": "White_rice",
-                        "entity_type": "concept",
-                        "count_helpful": 3
+                        "entity_type": "concept"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -955,8 +936,7 @@
                     {
                         "mention": "Skiing",
                         "entity": "Skiing",
-                        "entity_type": "concept",
-                        "count_helpful": 3
+                        "entity_type": "concept"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -1035,8 +1015,7 @@
                     {
                         "mention": "Basketball",
                         "entity": "Basketball",
-                        "entity_type": "concept",
-                        "count_helpful": 2
+                        "entity_type": "concept"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -1127,8 +1106,7 @@
                     {
                         "mention": "New England Patriots",
                         "entity": "New_England_Patriots",
-                        "entity_type": "named_entity",
-                        "count_helpful": 3
+                        "entity_type": "named_entity"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -1153,8 +1131,7 @@
                     {
                         "mention": "Dolphins",
                         "entity": "Miami_Dolphins",
-                        "entity_type": "named_entity",
-                        "count_helpful": 3
+                        "entity_type": "named_entity"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -1204,8 +1181,7 @@
                     {
                         "mention": "Purple",
                         "entity": "Purple",
-                        "entity_type": "concept",
-                        "count_helpful": 3
+                        "entity_type": "concept"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -1308,8 +1284,7 @@
                     {
                         "mention": "fettucini alfredo",
                         "entity": "Fettuccine_Alfredo",
-                        "entity_type": "concept",
-                        "count_helpful": 3
+                        "entity_type": "concept"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -1352,8 +1327,7 @@
                     {
                         "mention": "Channing Tatum",
                         "entity": "Channing_Tatum",
-                        "entity_type": "named_entity",
-                        "count_helpful": 3
+                        "entity_type": "named_entity"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -1420,8 +1394,7 @@
                     {
                         "mention": "yellow",
                         "entity": "Yellow",
-                        "entity_type": "concept",
-                        "count_helpful": 2
+                        "entity_type": "concept"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -1529,8 +1502,7 @@
                     {
                         "mention": "Salmon",
                         "entity": "Salmon",
-                        "entity_type": "concept",
-                        "count_helpful": 2
+                        "entity_type": "concept"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -1568,8 +1540,7 @@
                     {
                         "mention": "Pearl Jam",
                         "entity": "Pearl_Jam",
-                        "entity_type": "named_entity",
-                        "count_helpful": 3
+                        "entity_type": "named_entity"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -1696,8 +1667,7 @@
                     {
                         "mention": "stewie",
                         "entity": "Stewie_Griffin",
-                        "entity_type": "named_entity",
-                        "count_helpful": 3
+                        "entity_type": "named_entity"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -1728,8 +1698,7 @@
                     {
                         "mention": "hamburgers",
                         "entity": "Hamburger",
-                        "entity_type": "concept",
-                        "count_helpful": 3
+                        "entity_type": "concept"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -1778,8 +1747,7 @@
                     {
                         "mention": "turkey burger",
                         "entity": "Hamburger",
-                        "entity_type": "concept",
-                        "count_helpful": 2
+                        "entity_type": "concept"
                     }
                 ],
                 "personal_entity_annotations": [

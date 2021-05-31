@@ -19,19 +19,24 @@ The repository is structured as follows:
 - `./mturk_interfaces`: MTurk interface used to collect the entity annotations
 
 # Data
-MTurk entity annotation data is stored in `./data`: 
-- `samples.json`: Entity annotations from 25 dialogues from each dataset (i.e., MWOZ, QuAC, WoW, and TREC-CAST 2020).
-- `wow_with_personal_entities.json`: 25 WoW dialogues which contains personal entities in each dialogue.
+
+MTurk entity annotation data is stored in `./data`.
+- `./data/sample/`: Stratified samples
+  - `./data/sample/ground_truth/sample_ground_truth.json`: Entity annotations from 25 dialogues from each dataset (i.e., MWOZ, QuAC, WoW, and TREC-CAST 2020).
+- `./data/personal_entity/`: WoW with personal entities
+  - `./data/personal_entity/ground_truth/personal_entity_ground_truth.json`: 25 WoW dialogues which contains personal entities in each dialogue.
+- `run` folders contain EL tools' results
 
 ## Statistics
 
-|                   | Stratified samples<br>(sample.json) | WoW with personal entities<br>(wow_with_personal_entities.json) |
-|-------------------|-------------------------------------|-----------------------------------------------------------------|
-| # dialogues       | 100                                 | 25                                                              |
-| # user utterances | 708                                 | 113                                                             |
+|                   | Stratified samples<br>(./data/sample/) | WoW with personal entities<br>(./data/personal_entity/) |
+|-------------------|----------------------------------------|---------------------------------------------------------|
+| # dialogues       | 100                                    | 25                                                      |
+| # user utterances | 708                                    | 113                                                     |
 
 
 ## Data Format
+This section explains ground truth files data format (`sample_ground_truth.json` and `personal_entity_ground_truth.json`)\
 Each element in a list has a dict structure as follows:
 
 ```py
@@ -42,23 +47,15 @@ Each element in a list has a dict structure as follows:
         {
             "speaker": "USER", # or "SYSTEM"
             "utterance": "Blue is my favorite color, by far. What's yours?",
-            "tool_el_annotations": [
-                {
-                    "tool": "wat", # or "tagme", "rel19"
-                    "method": "history", # or "turn"
-                    "mention": "Blue",
-                    "entity": "Blue"
-                },
-            ],
-            "mturk_el_annotations": [
+            "turn_number": 0, 
+            "el_annotations": [ # Ground truth annotations
                 {
                     "mention": "Blue",
                     "entity": "Blue",
                     "entity_type": "concept", # or "named_entity"
-                    "count_helpful": 2 # From 0 to 3
                 }
             ],
-            "mturk_personal_entity_annotations": [
+            "personal_entity_annotations": [ # Personal entity annotations
                 {
                     "personal_entity_mention": "my favorite color",
                     "explicit_entity_mention": "Blue",
@@ -77,9 +74,8 @@ Each element in a list has a dict structure as follows:
   - `speaker`: USER or SYSTEM
   - `utterance`: utterance acquired from the dataset. (Note that for TREC-CAST 2020 system turns, only manual_canonical_result_id are shown)
   - `tool_el_annotations`: annotation with EL tools: WAT, TagMe, and REL
-  - `mturk_el_annotations`: annotations with MTurk workers
-    - `count_helpful`: the number of workers who think the mention-entity pair is helpful to provide a good reply to the user as a system. (max: 3, min: 0)
-  - `mturk_personal_entity_annotations`: Personal entity annotations. Note that only `wow_with_personal_entities.json` has this annotations.
+  - `el_annotations`: annotations with MTurk workers
+  - `personal_entity_annotations`: Personal entity annotations. Note that only `wow_with_personal_entities.json` has this annotations.
 
 # MTurk Interfaces
 
