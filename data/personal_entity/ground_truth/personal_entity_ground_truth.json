@@ -1,0 +1,1874 @@
+[
+    {
+        "dialogue_id": "10060",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "USER",
+                "utterance": "Blue is my favorite color, by far. What's yours?",
+                "turn_number": 0,
+                "el_annotations": [
+                    {
+                        "mention": "Blue",
+                        "entity": "Blue",
+                        "entity_type": "concept",
+                        "count_helpful": 2
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "my favorite color",
+                        "explicit_entity_mention": "Blue",
+                        "turn_number_of_explicit_entity_mention": 0,
+                        "entity": "Blue"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "I like blue too. It's between violet and green on the spectrum of light.",
+                "turn_number": 1
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Haha yeah, ROYGBIV right? I feel like blue is a very popular favorite color. A lot of people I know really like the color blue.",
+                "turn_number": 2,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "The eye sees blue when the wavelength is between 450 and 495 nanometres.",
+                "turn_number": 3
+            },
+            {
+                "speaker": "USER",
+                "utterance": "So interesting to think about. I get kinda tripped out when I start to think about all color as just being illusions of light waves. Some animals can't even see blue, just because of how their eyes process light. Weird",
+                "turn_number": 4,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "The sky and the sea appear blue because of an effect called Rayleigh scattering. They aren't really blue.",
+                "turn_number": 5
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Wow, really? I always thought the sky was blue because it was reflecting the ocean. At least thats what im pretty sure I learned in school lol",
+                "turn_number": 6,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Blue eyes are explained by an effect called Tyndall scattering.",
+                "turn_number": 7
+            }
+        ]
+    },
+    {
+        "dialogue_id": "1191",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "SYSTEM",
+                "utterance": "I love rock music, it is my favorite genre.",
+                "turn_number": 0
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I love Hard Rock and Punk Music. What's your favorite band? ",
+                "turn_number": 1,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "I love Joan Jett.",
+                "turn_number": 2
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Old school I like it. Do you like Iggy Pop he was popular around the same time.",
+                "turn_number": 3,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Iggy Pop was the godfather of Punk. Of course I liked him.",
+                "turn_number": 4
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Music is my passion. From the classic rock time period I like everyone Rod Stewert to the White Snake.",
+                "turn_number": 5,
+                "el_annotations": [
+                    {
+                        "mention": "Music",
+                        "entity": "Music",
+                        "entity_type": "concept",
+                        "count_helpful": 2
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "my passion",
+                        "explicit_entity_mention": "Music",
+                        "turn_number_of_explicit_entity_mention": 5,
+                        "entity": "Music"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": " I wish I was around in the 1950's when rock and roll originated.",
+                "turn_number": 6
+            },
+            {
+                "speaker": "USER",
+                "utterance": "You can still get a taste. Glen Danzig who used to play in the Misfit's wrote for Elvis and Johnny Cash. His music has a similar style.",
+                "turn_number": 7,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            }
+        ]
+    },
+    {
+        "dialogue_id": "17985",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "USER",
+                "utterance": "Blue is my favorite color of all time.",
+                "turn_number": 0,
+                "el_annotations": [
+                    {
+                        "mention": "Blue",
+                        "entity": "Blue",
+                        "entity_type": "concept",
+                        "count_helpful": 2
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "my favorite color of",
+                        "explicit_entity_mention": "Blue",
+                        "turn_number_of_explicit_entity_mention": 0,
+                        "entity": "Blue"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Me too. I love to use it while painting and it's used a lot since it's one of the three primary colors.",
+                "turn_number": 1
+            },
+            {
+                "speaker": "USER",
+                "utterance": "What does it mean to be a primary color?",
+                "turn_number": 2,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "A set of real colors that can be combined to produce other colors.",
+                "turn_number": 3
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Cool. What are the other 2 primary colors?",
+                "turn_number": 4,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Red and yellow. ",
+                "turn_number": 5
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Oh ok, so red and yellow make orange, blue and yellow make green and red and blue make purple right?",
+                "turn_number": 6,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "I'm not sure I only know that most blues contain a slight mixture of other colors. For example azure contains some green.",
+                "turn_number": 7
+            },
+            {
+                "speaker": "USER",
+                "utterance": "That's interesting to know!",
+                "turn_number": 8,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Yeah, also in the eighth century Chinese artists used cobalt blue to paint white porcelain.",
+                "turn_number": 9
+            }
+        ]
+    },
+    {
+        "dialogue_id": "16840",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "USER",
+                "utterance": "HI do you use youtube?",
+                "turn_number": 0,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Absolutely.  YouTube is the world's largest video platform.  I am sure most people have used or seen it is some form.  Do you use it?",
+                "turn_number": 1
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Of course! I am starting my own brand on youtube.  Its amazing how its grown over the last few years ",
+                "turn_number": 2,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "That is great!  What brand are you currently developing, and what social impact do you want to bring to the platform?",
+                "turn_number": 3
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I am a makeup reviewer so I use different brands and give my thoughts on them.  Im not looking for a social impact per-say but using it to expand my own passion for the cosmetic industry  ",
+                "turn_number": 4,
+                "el_annotations": [
+                    {
+                        "mention": "cosmetic industry",
+                        "entity": "Cosmetic_industry",
+                        "entity_type": "concept",
+                        "count_helpful": 3
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "my own passion",
+                        "explicit_entity_mention": "cosmetic industry",
+                        "turn_number_of_explicit_entity_mention": 4,
+                        "entity": "Cosmetic_industry"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "That is excellent.  I understand that the Food and Drug Administration regulates cosmetics; however, you are looking to simply share thoughts on the looks / feel of them?",
+                "turn_number": 5
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Yeah Im young and its a nice outlet and way to share something that is my passion.  Particularly I am interested in showcasing  cost effective brands that are also socially responsible ",
+                "turn_number": 6,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "I agree.  I believe people need to be socially responsible in their investments and purchases.  I think we have a duty to look for more than profit.  Life is more than food and clothes.  ",
+                "turn_number": 7
+            }
+        ]
+    },
+    {
+        "dialogue_id": "15141",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "USER",
+                "utterance": "My favorite food is probably pizza.  What do you think about pizza?",
+                "turn_number": 0,
+                "el_annotations": [
+                    {
+                        "mention": "pizza",
+                        "entity": "Pizza",
+                        "entity_type": "concept",
+                        "count_helpful": 2
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "My favorite food",
+                        "explicit_entity_mention": "pizza",
+                        "turn_number_of_explicit_entity_mention": 0,
+                        "entity": "Pizza"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "I love it. It's a classic Italian dish and huge in th",
+                "turn_number": 1
+            },
+            {
+                "speaker": "USER",
+                "utterance": "What kinds of crust do you like?  I like the thin, stuffed crust and New York style.",
+                "turn_number": 2,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "The United States* I love stuffed crust as well. It usually comes with a ton of cheese inside",
+                "turn_number": 3
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Me too, what are you favorite toppings?  I like pepperoni and other kinds of meats like sausage, even bell peppers are good in pizza!",
+                "turn_number": 4,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "I like pepperoni - an American meat - a lot. But usually I don't get meat. Spinach is cool.",
+                "turn_number": 5
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I have not ever tried spinach, that might be good.  I have tried pineapple and it was surprisingly good.",
+                "turn_number": 6,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "It's pretty good, and I like pineapple as well! Apparently Spinach comes from western and central Asia.",
+                "turn_number": 7
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I did not that about spinach.  I wonder if Popeye knows that!  He is the #1 spinach fan on the planet.",
+                "turn_number": 8,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Popeye is cool and I think created by this guy Elzi Crisler Segar.",
+                "turn_number": 9
+            }
+        ]
+    },
+    {
+        "dialogue_id": "5336",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "USER",
+                "utterance": "I love chocolate. ",
+                "turn_number": 0,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "I cannot get enough of it!  I especially love to buy blocks of chocolate to cook with, or syrup to  make chocolate milk.  What is your favorite?",
+                "turn_number": 1
+            },
+            {
+                "speaker": "USER",
+                "utterance": "My favorite is milk chocolate like in M&Ms and chocolate covered peanuts.",
+                "turn_number": 2,
+                "el_annotations": [
+                    {
+                        "mention": "milk chocolate",
+                        "entity": "Types_of_chocolate",
+                        "entity_type": "concept",
+                        "count_helpful": 2
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "My favorite",
+                        "explicit_entity_mention": "milk chocolate",
+                        "turn_number_of_explicit_entity_mention": 2,
+                        "entity": "Types_of_chocolate"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "I really like peanut m&m's too.  I love the perfect mix of peanut chocolate and candy coating!",
+                "turn_number": 3
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Yes those are great.",
+                "turn_number": 4,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Have you ever had Reese's peanut butter cups?  They are made of milk chocolate and a peanut filling.",
+                "turn_number": 5
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Oh those are definitely a favorite of mine! I do not like Reese's Pieces though.\\",
+                "turn_number": 6,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "They are very different.  If you like reese's peanut butter cups you would probably like a company called Justin's.  They make different nut butter cups, like almond butter, but they are organic and delicious!",
+                "turn_number": 7
+            }
+        ]
+    },
+    {
+        "dialogue_id": "1383",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "USER",
+                "utterance": "Mediterranean cuisine is some of my favorite, since I love stuff like pita and hummus.",
+                "turn_number": 0,
+                "el_annotations": [
+                    {
+                        "mention": "Mediterranean cuisine",
+                        "entity": "Mediterranean_cuisine",
+                        "entity_type": "concept",
+                        "count_helpful": 2
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "my favorite",
+                        "explicit_entity_mention": "Mediterranean cuisine",
+                        "turn_number_of_explicit_entity_mention": 0,
+                        "entity": "Mediterranean_cuisine"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Its so good! it was started by the people of the  Mediterranean Basin region, especially those of Southern Europe.",
+                "turn_number": 1
+            },
+            {
+                "speaker": "USER",
+                "utterance": "That's cool, what does a lot of Mediterranean cuisine consist of?",
+                "turn_number": 2,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Well there are three core elements the olive, wheat and the grape",
+                "turn_number": 3
+            },
+            {
+                "speaker": "USER",
+                "utterance": "That makes sense, they seem to love their wine and their olive oil over there.",
+                "turn_number": 4,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "O yeah! But because of the location they also love to implement  lamb, mutton, and other local ingredients into the cuisine ",
+                "turn_number": 5
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Must be why they love gyro meat over there, since a lot of the time it is made of largely lamb.",
+                "turn_number": 6,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Because of the region a wide variety of cultures and influenced the cuisine! ",
+                "turn_number": 7
+            }
+        ]
+    },
+    {
+        "dialogue_id": "15621",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "USER",
+                "utterance": "I love cheetos. They are my favorite snack.",
+                "turn_number": 0,
+                "el_annotations": [
+                    {
+                        "mention": "cheetos",
+                        "entity": "Cheetos",
+                        "entity_type": "named_entity",
+                        "count_helpful": 3
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "my favorite snack",
+                        "explicit_entity_mention": "cheetos",
+                        "turn_number_of_explicit_entity_mention": 0,
+                        "entity": "Cheetos"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "I love them too they are made by frito lay",
+                "turn_number": 1
+            },
+            {
+                "speaker": "USER",
+                "utterance": "What is your favorite kind of cheeto?",
+                "turn_number": 2,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "I like crunchy cheetos, you?",
+                "turn_number": 3
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I think flaming hot cheetos are the best.",
+                "turn_number": 4,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Those are good, i heard of a flavor called mac n cheetos but never tried it",
+                "turn_number": 5
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Those sound kind of gross in my opinion.",
+                "turn_number": 6,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Id have to agree. I read it came with ranch dressing and that sounds terrible lol",
+                "turn_number": 7
+            }
+        ]
+    },
+    {
+        "dialogue_id": "1161",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "USER",
+                "utterance": "Ice cream is one of the greatest creations culinary wise since the invention of sliced bread. What is your favorite ice cream?",
+                "turn_number": 0,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "My favorite one is down here in Texas call the Texas two step. it is cookies and cream mixed with cookie dough ice cream. it has alot of sugar in it.",
+                "turn_number": 1
+            },
+            {
+                "speaker": "USER",
+                "utterance": "That sounds simply amazing especially since cookies and cream is one of my favorites. Have you ever tried a Carvel ice cream cake?",
+                "turn_number": 2,
+                "el_annotations": [
+                    {
+                        "mention": "cookies and cream",
+                        "entity": "Cookies_and_cream",
+                        "entity_type": "concept",
+                        "count_helpful": 1
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "my favorites",
+                        "explicit_entity_mention": "cookies and cream",
+                        "turn_number_of_explicit_entity_mention": 2,
+                        "entity": "Cookies_and_cream"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "no i haven't. I bet it is good. The word Ice cream varies depending on what country you are in.",
+                "turn_number": 3
+            },
+            {
+                "speaker": "USER",
+                "utterance": "This is very true because in italy i think they have their own style of ice cream called gelato, Do you know of any other style of ice cream?",
+                "turn_number": 4,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Frozen yogurt and sorbet are considered ice cream. :)",
+                "turn_number": 5
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I love frozen yogurt! I used to work at pinkberry when i was in highschool it was heaven on earth",
+                "turn_number": 6,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "I Bet! Flavorings and colors are added once the cream is made.",
+                "turn_number": 7
+            }
+        ]
+    },
+    {
+        "dialogue_id": "7957",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "SYSTEM",
+                "utterance": "I enjoy ice cream because it is often made from milk and cream and combined with fruits or other ingredients and flavors.",
+                "turn_number": 0
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I really enjoy ice cream too. However I can't eat it anymore because I'm lactose intolerant.",
+                "turn_number": 1,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "I am sorry. that means you have abdominal pain, bloating, diarrhea, gas, and nausea whenever you take it",
+                "turn_number": 2
+            },
+            {
+                "speaker": "USER",
+                "utterance": "That is true. I have dealt with those medical conditions for sometime. I remember my favorite flavor was Oreo.",
+                "turn_number": 3,
+                "el_annotations": [
+                    {
+                        "mention": "Oreo",
+                        "entity": "Oreo",
+                        "entity_type": "named_entity",
+                        "count_helpful": 3
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "my favorite flavor",
+                        "explicit_entity_mention": "Oreo",
+                        "turn_number_of_explicit_entity_mention": 3,
+                        "entity": "Oreo"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "That is cool. Have you ever tried the ones used with other sweeteners other than sugar",
+                "turn_number": 4
+            },
+            {
+                "speaker": "USER",
+                "utterance": "The ones that are lactose free? I have. They are good, but seem to have a weird after taste. I don't buy them much anymore.",
+                "turn_number": 5,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Yes some sugar alternatives that are not produced by nature do have that quality",
+                "turn_number": 6
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Which sugar is your favorite? Do you like sugar cane?",
+                "turn_number": 7,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Yes and i like taking if raw from the stout, jointed, fibrous stalks that are rich in the sugar sucrose",
+                "turn_number": 8
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Sucrose is an organic molecule related to fructose or lactose. Did you know that?",
+                "turn_number": 9,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            }
+        ]
+    },
+    {
+        "dialogue_id": "2573",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "SYSTEM",
+                "utterance": "A milkshake is made from milk and is a cold, sweet beverage that has different flavors added to it.",
+                "turn_number": 0
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Vanilla is my favorite, Strawberry would be my second choice.",
+                "turn_number": 1,
+                "el_annotations": [
+                    {
+                        "mention": "Strawberry",
+                        "entity": "Strawberry",
+                        "entity_type": "concept",
+                        "count_helpful": 3
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "my second choice",
+                        "explicit_entity_mention": "Strawberry",
+                        "turn_number_of_explicit_entity_mention": 1,
+                        "entity": "Strawberry"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "A lot of restaurants prepare their milkshakes \"by hand\". They use scoops of ice cream and milk mixed in a blender.",
+                "turn_number": 2
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I like the hand scooped kind the best. Especially with cookies or candy mixed in with it.",
+                "turn_number": 3,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Ice cream is a sweetened frozen food that is used to make milkshakes. I like flavored chocolate best myself.",
+                "turn_number": 4
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Chocolate is good, do you like mint chocolate chip?",
+                "turn_number": 5,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "I'm not much of a mint fan. I do like a good ice cream float which is ice cream with root beer or another soda added to it.",
+                "turn_number": 6
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Oh man I used to love going to A&W as a kid and getting a root beer float! I'd almost forgot about that!",
+                "turn_number": 7,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "The ice cream float was invented in 1874 in Philadelphia, Pa by Robert McCay Green. I'm sure glad he invented them. They are my favorite.",
+                "turn_number": 8
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I'd like to give that man a big kiss lol",
+                "turn_number": 9,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            }
+        ]
+    },
+    {
+        "dialogue_id": "13604",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "USER",
+                "utterance": "Pizza is one of my favorite foods.",
+                "turn_number": 0,
+                "el_annotations": [
+                    {
+                        "mention": "Pizza",
+                        "entity": "Pizza",
+                        "entity_type": "concept",
+                        "count_helpful": 2
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "my favorite foods",
+                        "explicit_entity_mention": "Pizza",
+                        "turn_number_of_explicit_entity_mention": 0,
+                        "entity": "Pizza"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Same here. I like my pizza with vegetables, meats, and extra cheese.",
+                "turn_number": 1
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Same, what meats and vegetables do you like>",
+                "turn_number": 2,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "I like onions, mushrooms, and sausage. The word \"pizza\" was first recorded in the 10th century in Italy. Wow, that is a long time ago.",
+                "turn_number": 3
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I love mushrooms and pepperoni the most, personally.",
+                "turn_number": 4,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Yeah pepperoni is pretty good. Pizza is one of the most popular foods in the whold world.",
+                "turn_number": 5
+            },
+            {
+                "speaker": "USER",
+                "utterance": "That makes sense, it seems to have become huge in the past 50 years.",
+                "turn_number": 6,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Yeah there have been an explosion in pizzerias, restaurants specializing in pizza.",
+                "turn_number": 7
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Even though it came from Italy, pizza is so huge now.",
+                "turn_number": 8,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Pizza traveled around the world by Italian emigrants. Now you can find it just about everywhere!",
+                "turn_number": 9
+            }
+        ]
+    },
+    {
+        "dialogue_id": "873",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "USER",
+                "utterance": "I'm a vegetarian, but I love to eat sushi with fish. Do you like it? ",
+                "turn_number": 0,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "yes i love sushi , when i get payed i go to eat it right away , it can be made with white or brown rice",
+                "turn_number": 1
+            },
+            {
+                "speaker": "USER",
+                "utterance": "My favorite is definitely with white rice. I need to go out for some soon too. It's been too long!",
+                "turn_number": 2,
+                "el_annotations": [
+                    {
+                        "mention": "white rice",
+                        "entity": "White_rice",
+                        "entity_type": "concept",
+                        "count_helpful": 3
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "My favorite",
+                        "explicit_entity_mention": "white rice",
+                        "turn_number_of_explicit_entity_mention": 2,
+                        "entity": "White_rice"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "i wish i could cook it , when cooked it has a sticky texture ",
+                "turn_number": 3
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Yes! It's the sticky rice. They use a special rice vinegar when they make it. It's very good.",
+                "turn_number": 4,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "i love it , i ate rice every other day , rice is the seed of  the greass species ",
+                "turn_number": 5
+            },
+            {
+                "speaker": "USER",
+                "utterance": "It's a delicious grass seed for sure! When you have sushi, do you eat the raw fish?",
+                "turn_number": 6,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "i like both , sushi is sometimes confuesed with sashimi , and a bit of soy sause ",
+                "turn_number": 7
+            }
+        ]
+    },
+    {
+        "dialogue_id": "22270",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "USER",
+                "utterance": "Skiing is one of my favorite pasttimes. I wish I could do it more.",
+                "turn_number": 0,
+                "el_annotations": [
+                    {
+                        "mention": "Skiing",
+                        "entity": "Skiing",
+                        "entity_type": "concept",
+                        "count_helpful": 3
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "my favorite pasttimes",
+                        "explicit_entity_mention": "Skiing",
+                        "turn_number_of_explicit_entity_mention": 0,
+                        "entity": "Skiing"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "It is a lot of fun and has been around a long time.  It goes back almost 5000 years!",
+                "turn_number": 1
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I wonder what they used for skiis back then.",
+                "turn_number": 2,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "The word ski actually comes from skio.  That is Old Norse for split piece of wood",
+                "turn_number": 3
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Now that is pretty cool. So they named it after the piece of wood they originally used.",
+                "turn_number": 4,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Yes, it was orginally used to aid travel in snowy areas, but now it is pretty much just recreation",
+                "turn_number": 5
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Oh ok, so it was created out of necessity.",
+                "turn_number": 6,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Yes, and early skiers actually used spears as ski poles.  ",
+                "turn_number": 7
+            },
+            {
+                "speaker": "USER",
+                "utterance": "How long has skiing been around?",
+                "turn_number": 8,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "For over 5000 years, but the first instance of a skier with two ski poles was 1741",
+                "turn_number": 9
+            }
+        ]
+    },
+    {
+        "dialogue_id": "17206",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "USER",
+                "utterance": "Basketball is one of my favorite sports to watch. I like the Mavericks. Who is your favorite team?",
+                "turn_number": 0,
+                "el_annotations": [
+                    {
+                        "mention": "Basketball",
+                        "entity": "Basketball",
+                        "entity_type": "concept",
+                        "count_helpful": 2
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "my favorite sports",
+                        "explicit_entity_mention": "Basketball",
+                        "turn_number_of_explicit_entity_mention": 0,
+                        "entity": "Basketball"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Basketball is a limited contact sport played on a rectangular court. I'm afraid I don't watch Basketball so I don't know :)",
+                "turn_number": 1
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I definitely like going to the games more than watching them on TV. Do you know the basic rules of the game?",
+                "turn_number": 2,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Yup. The gneral idea is that you want to shoot a ball through the opposite hoop and score points based on different distances",
+                "turn_number": 3
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Simple enough.  I wonder who came up with the idea.",
+                "turn_number": 4,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "The game was invneted in 1891 by Dr. James Naismith! I'm not sure on the exact details of it, but I bet it was an accidental viral interest",
+                "turn_number": 5
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Do you know how many teams there are in the NBA?",
+                "turn_number": 6,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "30! It's most often played with 5 players on each side",
+                "turn_number": 7
+            },
+            {
+                "speaker": "USER",
+                "utterance": "30 teams is a lot. Which team won the championship last year?",
+                "turn_number": 8,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "I'm afraid I don't know, but the team with the most points at the end wins! (duh)",
+                "turn_number": 9
+            }
+        ]
+    },
+    {
+        "dialogue_id": "16339",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "USER",
+                "utterance": "I love football and think it is an iconic American pastime. It really brings a lot of people together and makes people passionate about the sport.",
+                "turn_number": 0,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "I love it to especially watching with my family and we all waiting for our team to score a goal lol.",
+                "turn_number": 1
+            },
+            {
+                "speaker": "USER",
+                "utterance": "My favorite team is the New England Patriots even though I don't live in New England. I got introduced them through an aquaintance.",
+                "turn_number": 2,
+                "el_annotations": [
+                    {
+                        "mention": "New England Patriots",
+                        "entity": "New_England_Patriots",
+                        "entity_type": "named_entity",
+                        "count_helpful": 3
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "My favorite team",
+                        "explicit_entity_mention": "New England Patriots",
+                        "turn_number_of_explicit_entity_mention": 2,
+                        "entity": "New_England_Patriots"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "I love the Miami Dolphins but I am from Miami lol.",
+                "turn_number": 3
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I used to like the Dolphins when Marino was the quarterback. Actually they were my favorite team growing up when I was really young!",
+                "turn_number": 4,
+                "el_annotations": [
+                    {
+                        "mention": "Dolphins",
+                        "entity": "Miami_Dolphins",
+                        "entity_type": "named_entity",
+                        "count_helpful": 3
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "my favorite team",
+                        "explicit_entity_mention": "Dolphins",
+                        "turn_number_of_explicit_entity_mention": 4,
+                        "entity": "Miami_Dolphins"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "I remember Dan he was a great player he retired after seventeen seasons with the Dolphins he should have went to twenty I loved him.",
+                "turn_number": 5
+            },
+            {
+                "speaker": "USER",
+                "utterance": "He did some other work with the NFL after playing and has been in a lot of commercials. Peyton Manning might go the same route I think but he's much younger.",
+                "turn_number": 6,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "I believe Manning is as well he is another great quarterback and has had a number of career achievements I know he has more in store after he is done playing. ",
+                "turn_number": 7
+            },
+            {
+                "speaker": "USER",
+                "utterance": "He did some other work with the NFL after playing and has been in a lot of commercials. Peyton Manning might go the same route I think but he's much younger.",
+                "turn_number": 8,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            }
+        ]
+    },
+    {
+        "dialogue_id": "17006",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "USER",
+                "utterance": "Purple is a beautiful color.Its my favorite.What do you think about that?",
+                "turn_number": 0,
+                "el_annotations": [
+                    {
+                        "mention": "Purple",
+                        "entity": "Purple",
+                        "entity_type": "concept",
+                        "count_helpful": 3
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "my favorite",
+                        "explicit_entity_mention": "Purple",
+                        "turn_number_of_explicit_entity_mention": 0,
+                        "entity": "Purple"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Yeah I love purple too ,its an intermediate between blue and red.",
+                "turn_number": 1
+            },
+            {
+                "speaker": "USER",
+                "utterance": "It goes good with these to color as well.I suppose its because it comes from these 2 colors",
+                "turn_number": 2,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Do you know that  similar to violet, but unlike violet, which is a spectral color with its own wavelength on the visible spectrum of light,.",
+                "turn_number": 3
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I didn't know that.Its  interesting.I though Violet and purple were the same",
+                "turn_number": 4,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "In Europe and the U.S., purple is the color most often associated with royalty, magic, mystery and piety.",
+                "turn_number": 5
+            },
+            {
+                "speaker": "USER",
+                "utterance": "in Japan, purple is traditionally associated with the Emperor and aristocracy.",
+                "turn_number": 6,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Also I'm China ,purple is associated with nobility of China, was an important feature of the traditional social and political organization.",
+                "turn_number": 7
+            }
+        ]
+    },
+    {
+        "dialogue_id": "1168",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "USER",
+                "utterance": "I really hate tomatoes. Especially fresh ones.",
+                "turn_number": 0,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "same tomatoes are horrible, do you like tomato sauce?",
+                "turn_number": 1
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I dont mind tomato sauce but fresh tomatoes are really gross to me.",
+                "turn_number": 2,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "i see, have you tried much italian cuisine",
+                "turn_number": 3
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Yes I've tried quite a bit of italian foods what about you?",
+                "turn_number": 4,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "yes i have tried it, it has lots of diverse foods such as pasta and pizza what is your favorite ?",
+                "turn_number": 5
+            },
+            {
+                "speaker": "USER",
+                "utterance": "My favorite would be fettucini alfredo, what about you?",
+                "turn_number": 6,
+                "el_annotations": [
+                    {
+                        "mention": "fettucini alfredo",
+                        "entity": "Fettuccine_Alfredo",
+                        "entity_type": "concept",
+                        "count_helpful": 3
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "My favorite",
+                        "explicit_entity_mention": "fettucini alfredo",
+                        "turn_number_of_explicit_entity_mention": 6,
+                        "entity": "Fettuccine_Alfredo"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "i really like pizza from pizza hut. where do you eat ouy ?",
+                "turn_number": 7
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I also enjoy pizza hut very much. Their pan pizza crust is amazing. I have always liked it.",
+                "turn_number": 8,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "i agree, pizza hut do them very nice",
+                "turn_number": 9
+            }
+        ]
+    },
+    {
+        "dialogue_id": "17067",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "USER",
+                "utterance": "Channing Tatum is one of my sisters favorite actors. Do you know much about him?",
+                "turn_number": 0,
+                "el_annotations": [
+                    {
+                        "mention": "Channing Tatum",
+                        "entity": "Channing_Tatum",
+                        "entity_type": "named_entity",
+                        "count_helpful": 3
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "my sisters favorite actors",
+                        "explicit_entity_mention": "Channing Tatum",
+                        "turn_number_of_explicit_entity_mention": 0,
+                        "entity": "Channing_Tatum"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "He was born on April 26th, 1980 making him 38 years old, and he is originally from America. What else would you like to know about him?",
+                "turn_number": 1
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I didn't realize he was that old! What are some of his biggest movies he's been in?",
+                "turn_number": 2,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Probably his best known role was his leading role in Magic Mike and it's sequel. He also starred in 21 Jump Street and it's sequel 22 Jump Street, however I can't say I have seen any of his films personally!",
+                "turn_number": 3
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I've seen 21 Jump Street but not the sequel, nor have I seen Magic Mike although I know my sister loved that one!",
+                "turn_number": 4,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Yeah, I've heard a lot of women do! Magic Mike was actually loosely based on Channing Tatum's experiences, as he was a stripper for a time when he was 18 years old in Tampa, Florida! ",
+                "turn_number": 5
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I had no idea! That is crazy. No wonder he played the part so well!",
+                "turn_number": 6,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Indeed! When the film was widely released by Warner Bros in 2012, it was a critical and commercial success. ",
+                "turn_number": 7
+            }
+        ]
+    },
+    {
+        "dialogue_id": "4371",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "USER",
+                "utterance": "Just wanted to let you know that yellow is my favorite color how about you?",
+                "turn_number": 0,
+                "el_annotations": [
+                    {
+                        "mention": "yellow",
+                        "entity": "Yellow",
+                        "entity_type": "concept",
+                        "count_helpful": 2
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "my favorite color",
+                        "explicit_entity_mention": "yellow",
+                        "turn_number_of_explicit_entity_mention": 0,
+                        "entity": "Yellow"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Nice! Yellow is actually my favorite color as well.  It's one of the primary colors too!",
+                "turn_number": 1
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Can you tell me a bit more about the color yellow ?",
+                "turn_number": 2,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Yellow, as it so happens, is made by carotenoids on things like autumn leaves, corn, and egg yolks. I guess you could say those are naturally occuring yellows.",
+                "turn_number": 3
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I learn something new everyday thank you for the information .  ",
+                "turn_number": 4,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Of course ;) Yellow is also the color between green and orange. You know how it goes, ROYGBIV? Red, orange, yellow, green...etc :)",
+                "turn_number": 5
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Yeah i have heard that before . Anything else you can tell me about other colors ?",
+                "turn_number": 6,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Definitely! So you know the colors ROYGBIV on the spectrum, well, on rainbows it's a continuous span of those same colors. There is no actual separation of the bands!",
+                "turn_number": 7
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Oh i did not know that thank you for the informative information!",
+                "turn_number": 8,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "No problem!",
+                "turn_number": 9
+            }
+        ]
+    },
+    {
+        "dialogue_id": "12407",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Have you ever heard of fly fishing? It's an angling method in which an artificial \"fly\" is used to catch the fish.",
+                "turn_number": 0
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Yes. I prefer to use live bait when I fish.",
+                "turn_number": 1,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "What kind of fish do you catch? I just bought a new specialized weighted line to cast my fly recently.",
+                "turn_number": 2
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Right now, mostly catfish.",
+                "turn_number": 3,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Oh that sounds good, I mostly go for the cold-water freshwater species like trout and salmon.",
+                "turn_number": 4
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I have never fished for Salmon even though its my favorite fish to eat.",
+                "turn_number": 5,
+                "el_annotations": [
+                    {
+                        "mention": "Salmon",
+                        "entity": "Salmon",
+                        "entity_type": "concept",
+                        "count_helpful": 2
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "my favorite fish",
+                        "explicit_entity_mention": "Salmon",
+                        "turn_number_of_explicit_entity_mention": 5,
+                        "entity": "Salmon"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "It's one of my favorite to eat too, so healthy. Do you ever catch warm-water species like bass?",
+                "turn_number": 6
+            },
+            {
+                "speaker": "USER",
+                "utterance": "No, I only catch fish that I want to eat.",
+                "turn_number": 7,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            }
+        ]
+    },
+    {
+        "dialogue_id": "8214",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "USER",
+                "utterance": "My fav band is Pearl Jam",
+                "turn_number": 0,
+                "el_annotations": [
+                    {
+                        "mention": "Pearl Jam",
+                        "entity": "Pearl_Jam",
+                        "entity_type": "named_entity",
+                        "count_helpful": 3
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "My fav band",
+                        "explicit_entity_mention": "Pearl Jam",
+                        "turn_number_of_explicit_entity_mention": 0,
+                        "entity": "Pearl_Jam"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Pearl Jam is an American rock which formed in Washington in the year 1990 ",
+                "turn_number": 1
+            },
+            {
+                "speaker": "USER",
+                "utterance": "And it had Kurt Cobain and Dave Grohl",
+                "turn_number": 2,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Matt Cameron is the fifth member since 1998",
+                "turn_number": 3
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I wish Kurt was still with us.",
+                "turn_number": 4,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Matthew Cameron who served as the drummer in American brands Pearl Jam and also Soundgarden ",
+                "turn_number": 5
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I see Matt Cameron gets around. Good for him. Soundgarden was big.",
+                "turn_number": 6,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "He was also invited to play in Pearl Jam;s in the year 1998 ",
+                "turn_number": 7
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Pearl Jam made some great music.",
+                "turn_number": 8,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Piano also been played from 2002",
+                "turn_number": 9
+            }
+        ]
+    },
+    {
+        "dialogue_id": "7051",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "USER",
+                "utterance": "extremely fond of this show. its one of my favorites. do you watch it too?",
+                "turn_number": 0,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "My husband does, it was created by Seth MacFarlane for Fox.",
+                "turn_number": 1
+            },
+            {
+                "speaker": "USER",
+                "utterance": "yes it was. it also plays now on the cw, adult swim, and tbs.",
+                "turn_number": 2,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "I thought Quahog was a real place, but apparently although it is in Rhode Island, it is fictional.",
+                "turn_number": 3
+            },
+            {
+                "speaker": "USER",
+                "utterance": "i actually thought the same until i googled it. its answesome none the less",
+                "turn_number": 4,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "It's interesting that Fox canceled it after the 3rd season with one episode left unaired.",
+                "turn_number": 5
+            },
+            {
+                "speaker": "USER",
+                "utterance": "yeah, you can only watch the unaired episode if you buy the complete third season box set. didnt they bring it back a few months later?",
+                "turn_number": 6,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Yes, the network renewed the show for a fourth season after high DVD sales and high ratings for reruns on Adult Swim",
+                "turn_number": 7
+            },
+            {
+                "speaker": "USER",
+                "utterance": "ive seen every episode they ever had and still love the show. my favorite character is stewie. whos your husbands favorite character?",
+                "turn_number": 8,
+                "el_annotations": [
+                    {
+                        "mention": "stewie",
+                        "entity": "Stewie_Griffin",
+                        "entity_type": "named_entity",
+                        "count_helpful": 3
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "my favorite character",
+                        "explicit_entity_mention": "stewie",
+                        "turn_number_of_explicit_entity_mention": 8,
+                        "entity": "Stewie_Griffin"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Stewie by far  - I used to think that Peter was the main character but the hubby says Stewie is.",
+                "turn_number": 9
+            }
+        ]
+    },
+    {
+        "dialogue_id": "1266",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "USER",
+                "utterance": "i really like eating hamburgers they are my favorite food",
+                "turn_number": 0,
+                "el_annotations": [
+                    {
+                        "mention": "hamburgers",
+                        "entity": "Hamburger",
+                        "entity_type": "concept",
+                        "count_helpful": 3
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "my favorite food",
+                        "explicit_entity_mention": "hamburgers",
+                        "turn_number_of_explicit_entity_mention": 0,
+                        "entity": "Hamburger"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Me too! I love that they can be pan fried, barbecued, or flame broiled. I enjoy them all. ",
+                "turn_number": 1
+            },
+            {
+                "speaker": "USER",
+                "utterance": "i like mine barbecued they really are delicious and sweet, could you tell me more abouut hamburgers",
+                "turn_number": 2,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "I think its weird that in the UK where the term \"patty\" is rarely used, or the term can even refer simply to ground beef",
+                "turn_number": 3
+            },
+            {
+                "speaker": "USER",
+                "utterance": "that sounds kind of funny to pronunce but i tend to just call them burgers jajaj",
+                "turn_number": 4,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Yep, my boyfriend insists of calling it by it's full name hamburger. I like all the types of meat or meat substitute used, as in \"turkey burger\", \"bison burger\", or \"veggie burger\".",
+                "turn_number": 5
+            },
+            {
+                "speaker": "USER",
+                "utterance": "I love turkey burger it is my second favorite type of burger meat",
+                "turn_number": 6,
+                "el_annotations": [
+                    {
+                        "mention": "turkey burger",
+                        "entity": "Hamburger",
+                        "entity_type": "concept",
+                        "count_helpful": 2
+                    }
+                ],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "my second favorite type of burger meat",
+                        "explicit_entity_mention": "turkey burger",
+                        "turn_number_of_explicit_entity_mention": 6,
+                        "entity": "Hamburger"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Germany is where the word hamburger comes from. Never thought about it but it does sound german.",
+                "turn_number": 7
+            },
+            {
+                "speaker": "USER",
+                "utterance": "wow i thought it was an american word that is really interesting thank you so much for all the info ",
+                "turn_number": 8,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Your welcome. one more fact, Burg means castle, fortified refuge and fortified settlement in german. not even close to our beloved hamburger. lol",
+                "turn_number": 9
+            }
+        ]
+    },
+    {
+        "dialogue_id": "2040",
+        "dataset_name": "wow",
+        "turns": [
+            {
+                "speaker": "USER",
+                "utterance": "I have my beautiful Beagle dog who I call Droopy. It's my best friend.",
+                "turn_number": 0,
+                "el_annotations": [],
+                "personal_entity_annotations": [
+                    {
+                        "personal_entity_mention": "my beautiful Beagle dog",
+                        "explicit_entity_mention": "Droopy",
+                        "turn_number_of_explicit_entity_mention": "(NoCorrespondingEntity)",
+                        "entity": "(NoCorrespondingEntity)"
+                    }
+                ]
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Aww, how cute. They are similar in appearance to the much larger foxhound.",
+                "turn_number": 1
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Oh, are they? What are foxhounds?",
+                "turn_number": 2,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "Mostly scent hounds. bred to hunt foxes by scent. the beagle is just a smaller version.",
+                "turn_number": 3
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Awesome, so they're kind of like siblings then. I don't know much about Beagles, I only know they can be human's best friend.",
+                "turn_number": 4,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "They have a great sense of smell. Which makes them popular hunting dogs.",
+                "turn_number": 5
+            },
+            {
+                "speaker": "USER",
+                "utterance": "Yes my Beagle seems to love sniffing around when we go on a walk and always wants to run after animals, it's so hard to walk him when he's excited.",
+                "turn_number": 6,
+                "el_annotations": [],
+                "personal_entity_annotations": []
+            },
+            {
+                "speaker": "SYSTEM",
+                "utterance": "They are very intelligent, but also single-minded when it comes to a task",
+                "turn_number": 7
+            }
+        ]
+    }
+]
