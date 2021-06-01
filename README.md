@@ -9,10 +9,8 @@ These resources are created on the existing datasets:
 - [TREC-CAsT 2020](https://github.com/daltonj/treccastweb)
 
 These resources are developed within the following paper:
+- *Hideaki Joko, Faegheh Hasibi, Krisztian Balog, and Arjen P. de Vries. “[Conversational Entity Linking: Problem Definition and Datasets](https://arxiv.org/abs/2105.04903)”.*
 
-```
-Hideaki Joko, Faegheh Hasibi, Krisztian Balog, and Arjen P. de Vries. “Conversational Entity Linking: Problem Definition and Datasets”.
-```
 
 The repository is structured as follows:
 - `./data`: MTurk entity annotations
@@ -87,6 +85,19 @@ Interfaces are Stored in `./mturk_interfaces` directory.
 
 <!--# TBA
 MTurk interface edit histories with the reasons why those interfaces needed to be modified (based on a pilot experiment on MTurk)-->
+
+# Cite
+
+```bibtex
+@inproceedings{Joko:2021:CEL,
+ author =    {Joko, Hideaki and Hasibi, Faegheh and Balog, Krisztian and de Vries, Arjen P.},
+ title =     {Conversational Entity Linking: Problem Definition and Datasets},
+ booktitle = {Proceedings of the 44rd International ACM SIGIR Conference on Research and Development in Information Retrieval},
+ series =    {SIGIR '21},
+ year =      {2021},
+ publisher = {ACM}
+}
+```
 
 # Contact
 
