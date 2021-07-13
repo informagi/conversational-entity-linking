@@ -27,14 +27,14 @@ MTurk entity annotation data is stored in `./data`.
 
 ## Statistics
 
-|                   | Stratified samples<br>(./data/sample/) | WoW with personal entities<br>(./data/personal_entity/) |
+|                   | Stratified samples<br>(`ConEL_CNE.json`) | WoW with personal entities<br>(`ConEL_PE.json`) |
 |-------------------|----------------------------------------|---------------------------------------------------------|
 | # dialogues       | 100                                    | 25                                                      |
 | # user utterances | 708                                    | 113                                                     |
 
 
 ## Data Format
-This section explains ground truth files data format (`sample_ground_truth.json` and `personal_entity_ground_truth.json`)\
+This section explains ground truth files data format (`ConEL_CNE.json` and `ConEL_PE.json`)\
 Each element in a list has a dict structure as follows:
 
 ```py
