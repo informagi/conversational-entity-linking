@@ -72,7 +72,7 @@ Each element in a list has a dict structure as follows:
   - `speaker`: USER or SYSTEM
   - `utterance`: utterance acquired from the dataset. (Note that for TREC-CAST 2020 system turns, only manual_canonical_result_id are shown)
   - `el_annotations`: annotations with MTurk workers
-  - `personal_entity_annotations`: Personal entity annotations. Note that only `wow_with_personal_entities.json` has this annotations.
+  - `personal_entity_annotations`: Personal entity annotations. Note that only `ConEL_PE.json` has this annotations.
 
 # MTurk Interfaces
 
