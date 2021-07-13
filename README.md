@@ -19,10 +19,10 @@ The repository is structured as follows:
 # Data
 
 MTurk entity annotation data is stored in `./data`.
-- `./data/sample/`: Stratified samples
-  - `./data/sample/ground_truth/sample_ground_truth.json`: Entity annotations from 25 dialogues from each dataset (i.e., MWOZ, QuAC, WoW, and TREC-CAST 2020).
-- `./data/personal_entity/`: WoW with personal entities
-  - `./data/personal_entity/ground_truth/personal_entity_ground_truth.json`: 25 WoW dialogues which contains personal entities in each dialogue.
+- `./data/ConEL_Concept_Named_Entity/`: Stratified samples
+  - `./data/ConEL_Concept_Named_Entity/ConEL_CNE.json`: Entity annotations from 25 dialogues from each dataset (i.e., MWOZ, QuAC, WoW, and TREC-CAST 2020).
+- `./data/ConEL_Personal_Entity/`: WoW with personal entities
+  - `./data/ConEL_Personal_Entity/ConEL_PE.json`: 25 WoW dialogues which contains personal entities in each dialogue.
 - `run` folders contain EL tools' results
 
 ## Statistics
