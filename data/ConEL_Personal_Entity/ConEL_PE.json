@@ -9,6 +9,11 @@
                 "turn_number": 0,
                 "el_annotations": [
                     {
+                        "mention": "favorite color",
+                        "entity": "Color_preferences",
+                        "entity_type": "concept"
+                    },
+                    {
                         "mention": "Blue",
                         "entity": "Blue",
                         "entity_type": "concept"
@@ -32,7 +37,18 @@
                 "speaker": "USER",
                 "utterance": "Haha yeah, ROYGBIV right? I feel like blue is a very popular favorite color. A lot of people I know really like the color blue.",
                 "turn_number": 2,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "favorite color",
+                        "entity": "Color_preferences",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "ROYGBIV",
+                        "entity": "ROYGBIV",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -44,7 +60,23 @@
                 "speaker": "USER",
                 "utterance": "So interesting to think about. I get kinda tripped out when I start to think about all color as just being illusions of light waves. Some animals can't even see blue, just because of how their eyes process light. Weird",
                 "turn_number": 4,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "light waves",
+                        "entity": "Light",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "color",
+                        "entity": "Color",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "animals",
+                        "entity": "Animal",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -56,7 +88,18 @@
                 "speaker": "USER",
                 "utterance": "Wow, really? I always thought the sky was blue because it was reflecting the ocean. At least thats what im pretty sure I learned in school lol",
                 "turn_number": 6,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "sky",
+                        "entity": "Sky",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "reflecting",
+                        "entity": "Reflection_(physics)",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -79,7 +122,18 @@
                 "speaker": "USER",
                 "utterance": "I love Hard Rock and Punk Music. What's your favorite band? ",
                 "turn_number": 1,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "Punk Music",
+                        "entity": "Punk_rock",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "Hard Rock",
+                        "entity": "Hard_rock",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -91,7 +145,13 @@
                 "speaker": "USER",
                 "utterance": "Old school I like it. Do you like Iggy Pop he was popular around the same time.",
                 "turn_number": 3,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "Iggy Pop",
+                        "entity": "Iggy_Pop",
+                        "entity_type": "named_entity"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -104,6 +164,21 @@
                 "utterance": "Music is my passion. From the classic rock time period I like everyone Rod Stewert to the White Snake.",
                 "turn_number": 5,
                 "el_annotations": [
+                    {
+                        "mention": "classic rock",
+                        "entity": "Classic_rock",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "White Snake",
+                        "entity": "Whitesnake",
+                        "entity_type": "named_entity"
+                    },
+                    {
+                        "mention": "Stewert",
+                        "entity": "Rod_Stewart",
+                        "entity_type": "named_entity"
+                    },
                     {
                         "mention": "Music",
                         "entity": "Music",
@@ -128,7 +203,33 @@
                 "speaker": "USER",
                 "utterance": "You can still get a taste. Glen Danzig who used to play in the Misfit's wrote for Elvis and Johnny Cash. His music has a similar style.",
                 "turn_number": 7,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "music",
+                        "entity": "Music",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "Misfit",
+                        "entity": "Misfits_(band)",
+                        "entity_type": "named_entity"
+                    },
+                    {
+                        "mention": "Johnny Cash",
+                        "entity": "Johnny_Cash",
+                        "entity_type": "named_entity"
+                    },
+                    {
+                        "mention": "Glen Danzig",
+                        "entity": "Glenn_Danzig",
+                        "entity_type": "named_entity"
+                    },
+                    {
+                        "mention": "Elvis",
+                        "entity": "Elvis_Presley",
+                        "entity_type": "named_entity"
+                    }
+                ],
                 "personal_entity_annotations": []
             }
         ]
@@ -142,6 +243,11 @@
                 "utterance": "Blue is my favorite color of all time.",
                 "turn_number": 0,
                 "el_annotations": [
+                    {
+                        "mention": "favorite color",
+                        "entity": "Color_preferences",
+                        "entity_type": "concept"
+                    },
                     {
                         "mention": "Blue",
                         "entity": "Blue",
@@ -166,7 +272,13 @@
                 "speaker": "USER",
                 "utterance": "What does it mean to be a primary color?",
                 "turn_number": 2,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "primary color",
+                        "entity": "Primary_color",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -178,7 +290,13 @@
                 "speaker": "USER",
                 "utterance": "Cool. What are the other 2 primary colors?",
                 "turn_number": 4,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "primary colors",
+                        "entity": "Primary_color",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -190,7 +308,38 @@
                 "speaker": "USER",
                 "utterance": "Oh ok, so red and yellow make orange, blue and yellow make green and red and blue make purple right?",
                 "turn_number": 6,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "yellow",
+                        "entity": "Yellow",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "red",
+                        "entity": "Red",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "purple",
+                        "entity": "Purple",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "orange",
+                        "entity": "Orange_(colour)",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "green",
+                        "entity": "Green",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "blue",
+                        "entity": "Blue",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -220,7 +369,13 @@
                 "speaker": "USER",
                 "utterance": "HI do you use youtube?",
                 "turn_number": 0,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "youtube",
+                        "entity": "YouTube",
+                        "entity_type": "named_entity"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -232,7 +387,13 @@
                 "speaker": "USER",
                 "utterance": "Of course! I am starting my own brand on youtube.  Its amazing how its grown over the last few years ",
                 "turn_number": 2,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "youtube",
+                        "entity": "YouTube",
+                        "entity_type": "named_entity"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -245,6 +406,21 @@
                 "utterance": "I am a makeup reviewer so I use different brands and give my thoughts on them.  Im not looking for a social impact per-say but using it to expand my own passion for the cosmetic industry  ",
                 "turn_number": 4,
                 "el_annotations": [
+                    {
+                        "mention": "social impact",
+                        "entity": "Social_impact_assessment",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "reviewer",
+                        "entity": "Independent_reviewer",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "makeup",
+                        "entity": "Cosmetics",
+                        "entity_type": "concept"
+                    },
                     {
                         "mention": "cosmetic industry",
                         "entity": "Cosmetic_industry",
@@ -269,7 +445,23 @@
                 "speaker": "USER",
                 "utterance": "Yeah Im young and its a nice outlet and way to share something that is my passion.  Particularly I am interested in showcasing  cost effective brands that are also socially responsible ",
                 "turn_number": 6,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "socially responsible",
+                        "entity": "Social_responsibility",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "cost",
+                        "entity": "Cost",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "brands",
+                        "entity": "Brand",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -292,6 +484,11 @@
                         "mention": "pizza",
                         "entity": "Pizza",
                         "entity_type": "concept"
+                    },
+                    {
+                        "mention": "food",
+                        "entity": "Food",
+                        "entity_type": "concept"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -312,7 +509,13 @@
                 "speaker": "USER",
                 "utterance": "What kinds of crust do you like?  I like the thin, stuffed crust and New York style.",
                 "turn_number": 2,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "crust",
+                        "entity": "Crust_(baking)",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -324,7 +527,33 @@
                 "speaker": "USER",
                 "utterance": "Me too, what are you favorite toppings?  I like pepperoni and other kinds of meats like sausage, even bell peppers are good in pizza!",
                 "turn_number": 4,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "toppings",
+                        "entity": "Pizza",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "sausage",
+                        "entity": "Sausage",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "pizza",
+                        "entity": "Pizza",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "pepperoni",
+                        "entity": "Pepperoni",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "bell peppers",
+                        "entity": "Bell_pepper",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -336,7 +565,18 @@
                 "speaker": "USER",
                 "utterance": "I have not ever tried spinach, that might be good.  I have tried pineapple and it was surprisingly good.",
                 "turn_number": 6,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "spinach",
+                        "entity": "Spinach",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "pineapple",
+                        "entity": "Pineapple",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -348,7 +588,18 @@
                 "speaker": "USER",
                 "utterance": "I did not that about spinach.  I wonder if Popeye knows that!  He is the #1 spinach fan on the planet.",
                 "turn_number": 8,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "spinach",
+                        "entity": "Spinach",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "Popeye",
+                        "entity": "Popeye",
+                        "entity_type": "named_entity"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -366,7 +617,13 @@
                 "speaker": "USER",
                 "utterance": "I love chocolate. ",
                 "turn_number": 0,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "chocolate",
+                        "entity": "Chocolate",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -382,6 +639,11 @@
                     {
                         "mention": "milk chocolate",
                         "entity": "Types_of_chocolate",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "chocolate covered peanuts",
+                        "entity": "Chocolate-coated_peanut",
                         "entity_type": "concept"
                     }
                 ],
@@ -415,7 +677,13 @@
                 "speaker": "USER",
                 "utterance": "Oh those are definitely a favorite of mine! I do not like Reese's Pieces though.\\",
                 "turn_number": 6,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "Reese's Pieces",
+                        "entity": "Reese's_Pieces",
+                        "entity_type": "named_entity"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -434,6 +702,21 @@
                 "utterance": "Mediterranean cuisine is some of my favorite, since I love stuff like pita and hummus.",
                 "turn_number": 0,
                 "el_annotations": [
+                    {
+                        "mention": "pita",
+                        "entity": "Pita",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "hummus",
+                        "entity": "Hummus",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "Mediterranean",
+                        "entity": "Mediterranean_cuisine",
+                        "entity_type": "named_entity"
+                    },
                     {
                         "mention": "Mediterranean cuisine",
                         "entity": "Mediterranean_cuisine",
@@ -458,7 +741,13 @@
                 "speaker": "USER",
                 "utterance": "That's cool, what does a lot of Mediterranean cuisine consist of?",
                 "turn_number": 2,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "Mediterranean cuisine",
+                        "entity": "Mediterranean_cuisine",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -470,7 +759,18 @@
                 "speaker": "USER",
                 "utterance": "That makes sense, they seem to love their wine and their olive oil over there.",
                 "turn_number": 4,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "wine",
+                        "entity": "Wine",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "olive oil",
+                        "entity": "Olive_oil",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -482,7 +782,23 @@
                 "speaker": "USER",
                 "utterance": "Must be why they love gyro meat over there, since a lot of the time it is made of largely lamb.",
                 "turn_number": 6,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "meat",
+                        "entity": "Meat",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "lamb",
+                        "entity": "Lamb_and_mutton",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "gyro",
+                        "entity": "Gyro_(food)",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -501,6 +817,11 @@
                 "utterance": "I love cheetos. They are my favorite snack.",
                 "turn_number": 0,
                 "el_annotations": [
+                    {
+                        "mention": "snack",
+                        "entity": "Snack",
+                        "entity_type": "concept"
+                    },
                     {
                         "mention": "cheetos",
                         "entity": "Cheetos",
@@ -525,7 +846,13 @@
                 "speaker": "USER",
                 "utterance": "What is your favorite kind of cheeto?",
                 "turn_number": 2,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "cheeto",
+                        "entity": "Cheetos",
+                        "entity_type": "named_entity"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -537,7 +864,18 @@
                 "speaker": "USER",
                 "utterance": "I think flaming hot cheetos are the best.",
                 "turn_number": 4,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "hot cheetos",
+                        "entity": "Cheetos",
+                        "entity_type": "named_entity"
+                    },
+                    {
+                        "mention": "cheetos",
+                        "entity": "Cheetos",
+                        "entity_type": "named_entity"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -567,7 +905,13 @@
                 "speaker": "USER",
                 "utterance": "Ice cream is one of the greatest creations culinary wise since the invention of sliced bread. What is your favorite ice cream?",
                 "turn_number": 0,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "ice cream",
+                        "entity": "Ice_cream",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -579,7 +923,13 @@
                 "speaker": "USER",
                 "utterance": "That sounds simply amazing especially since cookies and cream is one of my favorites. Have you ever tried a Carvel ice cream cake?",
                 "turn_number": 2,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "ice cream cake",
+                        "entity": "Ice_cream_cake",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": [
                     {
                         "personal_entity_mention": "my favorites",
@@ -598,7 +948,18 @@
                 "speaker": "USER",
                 "utterance": "This is very true because in italy i think they have their own style of ice cream called gelato, Do you know of any other style of ice cream?",
                 "turn_number": 4,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "ice cream",
+                        "entity": "Ice_cream",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "gelato",
+                        "entity": "Gelato",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -610,7 +971,18 @@
                 "speaker": "USER",
                 "utterance": "I love frozen yogurt! I used to work at pinkberry when i was in highschool it was heaven on earth",
                 "turn_number": 6,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "pinkberry",
+                        "entity": "Pinkberry",
+                        "entity_type": "named_entity"
+                    },
+                    {
+                        "mention": "frozen yogurt",
+                        "entity": "Frozen_yogurt",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -633,7 +1005,18 @@
                 "speaker": "USER",
                 "utterance": "I really enjoy ice cream too. However I can't eat it anymore because I'm lactose intolerant.",
                 "turn_number": 1,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "lactose intolerant",
+                        "entity": "Lactose_intolerance",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "ice cream",
+                        "entity": "Ice_cream",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -670,7 +1053,13 @@
                 "speaker": "USER",
                 "utterance": "The ones that are lactose free? I have. They are good, but seem to have a weird after taste. I don't buy them much anymore.",
                 "turn_number": 5,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "lactose",
+                        "entity": "Lactose",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -682,7 +1071,13 @@
                 "speaker": "USER",
                 "utterance": "Which sugar is your favorite? Do you like sugar cane?",
                 "turn_number": 7,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "sugar cane",
+                        "entity": "Sugarcane",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -694,7 +1089,23 @@
                 "speaker": "USER",
                 "utterance": "Sucrose is an organic molecule related to fructose or lactose. Did you know that?",
                 "turn_number": 9,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "lactose",
+                        "entity": "Lactose",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "fructose",
+                        "entity": "Fructose",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "Sucrose",
+                        "entity": "Sucrose",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             }
         ]
@@ -713,6 +1124,11 @@
                 "utterance": "Vanilla is my favorite, Strawberry would be my second choice.",
                 "turn_number": 1,
                 "el_annotations": [
+                    {
+                        "mention": "Vanilla",
+                        "entity": "Vanilla",
+                        "entity_type": "concept"
+                    },
                     {
                         "mention": "Strawberry",
                         "entity": "Strawberry",
@@ -737,7 +1153,18 @@
                 "speaker": "USER",
                 "utterance": "I like the hand scooped kind the best. Especially with cookies or candy mixed in with it.",
                 "turn_number": 3,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "cookies",
+                        "entity": "Cookie",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "candy",
+                        "entity": "Candy",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -749,7 +1176,13 @@
                 "speaker": "USER",
                 "utterance": "Chocolate is good, do you like mint chocolate chip?",
                 "turn_number": 5,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "mint chocolate chip",
+                        "entity": "Mint_chocolate_chip",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -761,7 +1194,18 @@
                 "speaker": "USER",
                 "utterance": "Oh man I used to love going to A&W as a kid and getting a root beer float! I'd almost forgot about that!",
                 "turn_number": 7,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "root beer float",
+                        "entity": "Root_beer",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "root beer float",
+                        "entity": "Ice_cream_float",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -788,6 +1232,11 @@
                 "turn_number": 0,
                 "el_annotations": [
                     {
+                        "mention": "foods",
+                        "entity": "Food",
+                        "entity_type": "concept"
+                    },
+                    {
                         "mention": "Pizza",
                         "entity": "Pizza",
                         "entity_type": "concept"
@@ -811,7 +1260,18 @@
                 "speaker": "USER",
                 "utterance": "Same, what meats and vegetables do you like>",
                 "turn_number": 2,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "vegetables",
+                        "entity": "Vegetable",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "meats",
+                        "entity": "Meat",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -823,7 +1283,18 @@
                 "speaker": "USER",
                 "utterance": "I love mushrooms and pepperoni the most, personally.",
                 "turn_number": 4,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "pepperoni",
+                        "entity": "Pepperoni",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "mushrooms",
+                        "entity": "Mushroom",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -847,7 +1318,18 @@
                 "speaker": "USER",
                 "utterance": "Even though it came from Italy, pizza is so huge now.",
                 "turn_number": 8,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "pizza",
+                        "entity": "Pizza",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "Italy",
+                        "entity": "Italy",
+                        "entity_type": "named_entity"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -865,7 +1347,18 @@
                 "speaker": "USER",
                 "utterance": "I'm a vegetarian, but I love to eat sushi with fish. Do you like it? ",
                 "turn_number": 0,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "sushi",
+                        "entity": "Sushi",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "fish",
+                        "entity": "Fish_as_food",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -902,7 +1395,18 @@
                 "speaker": "USER",
                 "utterance": "Yes! It's the sticky rice. They use a special rice vinegar when they make it. It's very good.",
                 "turn_number": 4,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "sticky rice",
+                        "entity": "Glutinous_rice",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "rice vinegar",
+                        "entity": "Rice_vinegar",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -914,7 +1418,13 @@
                 "speaker": "USER",
                 "utterance": "It's a delicious grass seed for sure! When you have sushi, do you eat the raw fish?",
                 "turn_number": 6,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "sushi",
+                        "entity": "Sushi",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -969,7 +1479,13 @@
                 "speaker": "USER",
                 "utterance": "Now that is pretty cool. So they named it after the piece of wood they originally used.",
                 "turn_number": 4,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "wood",
+                        "entity": "Wood",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -993,7 +1509,13 @@
                 "speaker": "USER",
                 "utterance": "How long has skiing been around?",
                 "turn_number": 8,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "skiing",
+                        "entity": "Skiing",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1012,6 +1534,11 @@
                 "utterance": "Basketball is one of my favorite sports to watch. I like the Mavericks. Who is your favorite team?",
                 "turn_number": 0,
                 "el_annotations": [
+                    {
+                        "mention": "Mavericks",
+                        "entity": "Dallas_Mavericks",
+                        "entity_type": "named_entity"
+                    },
                     {
                         "mention": "Basketball",
                         "entity": "Basketball",
@@ -1036,7 +1563,13 @@
                 "speaker": "USER",
                 "utterance": "I definitely like going to the games more than watching them on TV. Do you know the basic rules of the game?",
                 "turn_number": 2,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "TV.",
+                        "entity": "Television",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1048,7 +1581,13 @@
                 "speaker": "USER",
                 "utterance": "Simple enough.  I wonder who came up with the idea.",
                 "turn_number": 4,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "idea",
+                        "entity": "Idea",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1060,7 +1599,18 @@
                 "speaker": "USER",
                 "utterance": "Do you know how many teams there are in the NBA?",
                 "turn_number": 6,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "teams",
+                        "entity": "Team",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "NBA",
+                        "entity": "National_Basketball_Association",
+                        "entity_type": "named_entity"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1072,7 +1622,13 @@
                 "speaker": "USER",
                 "utterance": "30 teams is a lot. Which team won the championship last year?",
                 "turn_number": 8,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "championship",
+                        "entity": "Championship",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1090,7 +1646,13 @@
                 "speaker": "USER",
                 "utterance": "I love football and think it is an iconic American pastime. It really brings a lot of people together and makes people passionate about the sport.",
                 "turn_number": 0,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "football",
+                        "entity": "Football",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1129,6 +1691,16 @@
                 "turn_number": 4,
                 "el_annotations": [
                     {
+                        "mention": "quarterback",
+                        "entity": "Quarterback",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "Marino",
+                        "entity": "Dan_Marino",
+                        "entity_type": "named_entity"
+                    },
+                    {
                         "mention": "Dolphins",
                         "entity": "Miami_Dolphins",
                         "entity_type": "named_entity"
@@ -1152,7 +1724,23 @@
                 "speaker": "USER",
                 "utterance": "He did some other work with the NFL after playing and has been in a lot of commercials. Peyton Manning might go the same route I think but he's much younger.",
                 "turn_number": 6,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "commercials",
+                        "entity": "Television_advertisement",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "Peyton Manning",
+                        "entity": "Peyton_Manning",
+                        "entity_type": "named_entity"
+                    },
+                    {
+                        "mention": "NFL",
+                        "entity": "National_Football_League",
+                        "entity_type": "named_entity"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1164,7 +1752,23 @@
                 "speaker": "USER",
                 "utterance": "He did some other work with the NFL after playing and has been in a lot of commercials. Peyton Manning might go the same route I think but he's much younger.",
                 "turn_number": 8,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "commercials",
+                        "entity": "Television_advertisement",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "Peyton Manning",
+                        "entity": "Peyton_Manning",
+                        "entity_type": "named_entity"
+                    },
+                    {
+                        "mention": "NFL",
+                        "entity": "National_Football_League",
+                        "entity_type": "named_entity"
+                    }
+                ],
                 "personal_entity_annotations": []
             }
         ]
@@ -1178,6 +1782,11 @@
                 "utterance": "Purple is a beautiful color.Its my favorite.What do you think about that?",
                 "turn_number": 0,
                 "el_annotations": [
+                    {
+                        "mention": "color",
+                        "entity": "Color",
+                        "entity_type": "concept"
+                    },
                     {
                         "mention": "Purple",
                         "entity": "Purple",
@@ -1202,7 +1811,13 @@
                 "speaker": "USER",
                 "utterance": "It goes good with these to color as well.I suppose its because it comes from these 2 colors",
                 "turn_number": 2,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "color",
+                        "entity": "Color",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1214,7 +1829,13 @@
                 "speaker": "USER",
                 "utterance": "I didn't know that.Its  interesting.I though Violet and purple were the same",
                 "turn_number": 4,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "Violet",
+                        "entity": "Violet_(color)",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1226,7 +1847,23 @@
                 "speaker": "USER",
                 "utterance": "in Japan, purple is traditionally associated with the Emperor and aristocracy.",
                 "turn_number": 6,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "aristocracy",
+                        "entity": "Aristocracy",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "Japan",
+                        "entity": "Japan",
+                        "entity_type": "named_entity"
+                    },
+                    {
+                        "mention": "Emperor",
+                        "entity": "Emperor",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1256,7 +1893,13 @@
                 "speaker": "USER",
                 "utterance": "I dont mind tomato sauce but fresh tomatoes are really gross to me.",
                 "turn_number": 2,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "tomato sauce",
+                        "entity": "Tomato_sauce",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1268,7 +1911,13 @@
                 "speaker": "USER",
                 "utterance": "Yes I've tried quite a bit of italian foods what about you?",
                 "turn_number": 4,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "italian",
+                        "entity": "Italian_cuisine",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1305,7 +1954,23 @@
                 "speaker": "USER",
                 "utterance": "I also enjoy pizza hut very much. Their pan pizza crust is amazing. I have always liked it.",
                 "turn_number": 8,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "pizza hut",
+                        "entity": "Pizza_Hut",
+                        "entity_type": "named_entity"
+                    },
+                    {
+                        "mention": "pan pizza",
+                        "entity": "Pan_pizza",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "crust",
+                        "entity": "Crust_(baking)",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1360,7 +2025,18 @@
                 "speaker": "USER",
                 "utterance": "I've seen 21 Jump Street but not the sequel, nor have I seen Magic Mike although I know my sister loved that one!",
                 "turn_number": 4,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "Magic Mike",
+                        "entity": "Magic_Mike",
+                        "entity_type": "named_entity"
+                    },
+                    {
+                        "mention": "21 Jump Street",
+                        "entity": "21_Jump_Street",
+                        "entity_type": "named_entity"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1395,6 +2071,11 @@
                         "mention": "yellow",
                         "entity": "Yellow",
                         "entity_type": "concept"
+                    },
+                    {
+                        "mention": "favorite color",
+                        "entity": "Color_preferences",
+                        "entity_type": "concept"
                     }
                 ],
                 "personal_entity_annotations": [
@@ -1415,7 +2096,13 @@
                 "speaker": "USER",
                 "utterance": "Can you tell me a bit more about the color yellow ?",
                 "turn_number": 2,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "color",
+                        "entity": "Color",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1474,7 +2161,13 @@
                 "speaker": "USER",
                 "utterance": "Yes. I prefer to use live bait when I fish.",
                 "turn_number": 1,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "live bait",
+                        "entity": "Fishing_bait",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1486,7 +2179,13 @@
                 "speaker": "USER",
                 "utterance": "Right now, mostly catfish.",
                 "turn_number": 3,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "catfish",
+                        "entity": "Catfish",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1499,6 +2198,11 @@
                 "utterance": "I have never fished for Salmon even though its my favorite fish to eat.",
                 "turn_number": 5,
                 "el_annotations": [
+                    {
+                        "mention": "fish",
+                        "entity": "Fish",
+                        "entity_type": "concept"
+                    },
                     {
                         "mention": "Salmon",
                         "entity": "Salmon",
@@ -1523,7 +2227,13 @@
                 "speaker": "USER",
                 "utterance": "No, I only catch fish that I want to eat.",
                 "turn_number": 7,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "fish",
+                        "entity": "Fish",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             }
         ]
@@ -1561,7 +2271,18 @@
                 "speaker": "USER",
                 "utterance": "And it had Kurt Cobain and Dave Grohl",
                 "turn_number": 2,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "Kurt Cobain",
+                        "entity": "Kurt_Cobain",
+                        "entity_type": "named_entity"
+                    },
+                    {
+                        "mention": "Dave Grohl",
+                        "entity": "Dave_Grohl",
+                        "entity_type": "named_entity"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1573,7 +2294,13 @@
                 "speaker": "USER",
                 "utterance": "I wish Kurt was still with us.",
                 "turn_number": 4,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "Kurt",
+                        "entity": "Kurt_Cobain",
+                        "entity_type": "named_entity"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1585,7 +2312,18 @@
                 "speaker": "USER",
                 "utterance": "I see Matt Cameron gets around. Good for him. Soundgarden was big.",
                 "turn_number": 6,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "Soundgarden",
+                        "entity": "Soundgarden",
+                        "entity_type": "named_entity"
+                    },
+                    {
+                        "mention": "Matt Cameron",
+                        "entity": "Matt_Cameron",
+                        "entity_type": "named_entity"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1597,7 +2335,18 @@
                 "speaker": "USER",
                 "utterance": "Pearl Jam made some great music.",
                 "turn_number": 8,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "music",
+                        "entity": "Music",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "Pearl Jam",
+                        "entity": "Pearl_Jam",
+                        "entity_type": "named_entity"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1627,7 +2376,23 @@
                 "speaker": "USER",
                 "utterance": "yes it was. it also plays now on the cw, adult swim, and tbs.",
                 "turn_number": 2,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "tbs.",
+                        "entity": "TBS_(American_TV_channel)",
+                        "entity_type": "named_entity"
+                    },
+                    {
+                        "mention": "cw",
+                        "entity": "The_CW",
+                        "entity_type": "named_entity"
+                    },
+                    {
+                        "mention": "adult swim",
+                        "entity": "Adult_Swim",
+                        "entity_type": "named_entity"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1719,7 +2484,13 @@
                 "speaker": "USER",
                 "utterance": "i like mine barbecued they really are delicious and sweet, could you tell me more abouut hamburgers",
                 "turn_number": 2,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "hamburgers",
+                        "entity": "Hamburger",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1731,7 +2502,13 @@
                 "speaker": "USER",
                 "utterance": "that sounds kind of funny to pronunce but i tend to just call them burgers jajaj",
                 "turn_number": 4,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "burgers",
+                        "entity": "Hamburger",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1786,7 +2563,13 @@
                 "speaker": "USER",
                 "utterance": "I have my beautiful Beagle dog who I call Droopy. It's my best friend.",
                 "turn_number": 0,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "Beagle",
+                        "entity": "Beagle",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": [
                     {
                         "personal_entity_mention": "my beautiful Beagle dog",
@@ -1805,7 +2588,13 @@
                 "speaker": "USER",
                 "utterance": "Oh, are they? What are foxhounds?",
                 "turn_number": 2,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "foxhounds",
+                        "entity": "Foxhound",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1817,7 +2606,18 @@
                 "speaker": "USER",
                 "utterance": "Awesome, so they're kind of like siblings then. I don't know much about Beagles, I only know they can be human's best friend.",
                 "turn_number": 4,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "best friend",
+                        "entity": "Friendship",
+                        "entity_type": "concept"
+                    },
+                    {
+                        "mention": "Beagles",
+                        "entity": "Beagle",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
@@ -1829,7 +2629,13 @@
                 "speaker": "USER",
                 "utterance": "Yes my Beagle seems to love sniffing around when we go on a walk and always wants to run after animals, it's so hard to walk him when he's excited.",
                 "turn_number": 6,
-                "el_annotations": [],
+                "el_annotations": [
+                    {
+                        "mention": "Beagle",
+                        "entity": "Beagle",
+                        "entity_type": "concept"
+                    }
+                ],
                 "personal_entity_annotations": []
             },
             {
